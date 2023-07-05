@@ -11,11 +11,11 @@ const Skills = () => {
       style={{ backgroundImage: `url(${require(`../Assets/smoke.jpg`)})` }}
     >
       <div className="col-span-1 flex justify-center text-center items-center flex-col" style={{fontFamily: 'Fonstars'}}>
-        <h1 className="lg:text-[3.5rem] xsm:text-[3rem] rdm:text-[2.5rem] rdm:mt-3 font-bold text-white sm:mt-8">
+        <h1 className="lg:text-[3.5rem] xsm:text-[2.6rem] rdm:text-[2.5rem] rdm:mt-3 font-bold text-white">
           Hisoka Morow
         </h1>
         <div className="">
-          <button className="text-white group border-2 px-6 py-3 my-2 flex items-center bg-[#F24B28]  hover:bg-[#F24B28] hover:border-pink-600">
+          <button className="text-white group border-2 lg:px-6 lg:py-3 lg:my-2 xsm:px-5 xsm:py-2 flex items-center bg-[#F24B28]  hover:bg-[#F24B28] hover:border-pink-600">
             Read more
             <span className="group-hover:rotate-90 duration-300">
               <HiArrowNarrowRight className="ml-3" />
