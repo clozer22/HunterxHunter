@@ -19,7 +19,7 @@ const About = () => {
         </h1>
 
         <div className="">
-          <button className="text-white group border-2 lg:px-6 lg:py-3 lg:my-2 xsm:px-5 xsm:py-2 xsm:my-2 flex items-center bg-[#F24B28]   hover:bg-[#F24B28] hover:border-pink-600">
+          <button className="text-white group border-2 lg:px-6 lg:py-3 lg:my-2 xsm:px-5 xsm:py-2 xsm:my-2 rdm:px-5 rdm:py-2 flex items-center bg-[#F24B28]   hover:bg-[#F24B28] hover:border-pink-600">
             <Link to="/netero_info">Read more</Link>
             <span className="group-hover:rotate-90 duration-300">
               <HiArrowNarrowRight className="ml-3" />
