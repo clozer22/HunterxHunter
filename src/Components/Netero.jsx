@@ -14,7 +14,7 @@ const About = () => {
       style={{ backgroundImage: `url(${require(`../Assets/netero2.png`)})` }}
     >
       <div className="col-span-1 flex justify-center text-center items-center flex-col lg:bg-gradient-to-b xsm:bg-gradient-to-l from-black" style={{fontFamily: 'Fonstars'}}>
-        <h1 className="lg:text-[5rem] xsm:text-[3rem] font-bold text-white sm:mt-8">
+        <h1 className="lg:text-[3.5rem] xsm:text-[3rem] font-bold text-white sm:mt-8">
           Isaac Netero
         </h1>
 

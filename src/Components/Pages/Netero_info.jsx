@@ -65,13 +65,13 @@ const Netero_info = () => {
           className="col-span-1 items-center pl-6 h-[1240px] lg:bg-gradient-to-bl lg:relative sm:absolute  from-black"
         >
           <h1
-            className="font-bold text-[5rem] text-white text-center"
+            className="font-bold lg:text-[3rem] text-white text-center"
             style={{ fontFamily: "Fonstars" }}
           >
             Isaac netero
           </h1>
           <div className="bg-black rounded text-white mb-5">
-            <p className="font-bold text-center text-[1.3rem]">
+            <p className="font-bold text-center text-[1rem]">
               "When? When did I start waiting for my opponent to make the first
               move? When, indeed? It became a routine. The loser held out his
               hands in gratitude for the lesson and I graciously accepted
@@ -86,7 +86,7 @@ const Netero_info = () => {
             </p>
           </div>
           <div>
-            <p className="text-white mb-7 text-[1.3rem] font-bold">
+            <p className="text-white mb-7 lg:text-[.8rem] font-bold">
               <span className="font-bold">Killua Zoldyck</span>{" "}
               (キルア゠ゾルディック, Kirua Zorudikku) is the third child of
               Silva and Kikyo Zoldyck and the heir of the Zoldyck Family, until
@@ -107,7 +107,7 @@ const Netero_info = () => {
               <thead className="bg-black">
                 <tr className="py-5 ">
                   <th
-                    className="py-2 text-center justify-center items-center text-[2rem]"
+                    className="py-2 text-center justify-center items-center lg:text-[2rem]"
                     style={{ fontFamily: "Fonstars" }}
                   >
                     Isaac netero
@@ -115,8 +115,8 @@ const Netero_info = () => {
                   <th className="py-2 text-center"></th>
                 </tr>
               </thead>
-              <tbody className="bg-[#5f5f5f]">
-                <tr className="border-black border-b-2">
+              <tbody className="bg-[#5f5f5f] lg:text-[.8rem]">
+                <tr className="border-black border-b-2 ">
                   <td className="font-bold py-3 pl-2">Kana</td>
                   <td className="py-3 pl-2">アイザック゠ネテロ</td>
                 </tr>
@@ -136,7 +136,7 @@ const Netero_info = () => {
                   <th className="py-3 text-center"></th>
                 </tr>
               </thead>
-              <tbody className="bg-[#5f5f5f]">
+              <tbody className="bg-[#5f5f5f] lg:text-[.8rem]">
                 <tr className="border-black border-b-2">
                   <td className="font-bold py-3 pl-2">Gender</td>
                   <td className="py-3 pl-2 flex">
@@ -167,7 +167,7 @@ const Netero_info = () => {
                   <th className="py-3 text-center"></th>
                 </tr>
               </thead>
-              <tbody className="bg-[#5f5f5f]">
+              <tbody className="bg-[#5f5f5f] lg:text-[.8rem]">
                 <tr className="border-black border-b-2">
                   <td className="font-bold py-3 pl-2">Type</td>
                   <td className="py-3 pl-2 flex">Enhancement</td>
@@ -193,7 +193,7 @@ const Netero_info = () => {
         }}
       >
         <div className="py-5 flex justify-center items-center text-white">
-          <table class="table-auto w-[100rem]">
+          <table class="table-auto">
             <thead className="bg-black text-white">
               <tr className=" ">
                 <th
@@ -211,7 +211,7 @@ const Netero_info = () => {
                 </td>
                 <td className="py-3 pl-2 text-[1.2rem] font-bold">
                   Netero was energetic, playful to the point of being
-                  mischievous, and, at times, seemingly absentminded. Although
+                  mischievous, and, sssat times, seemingly absentminded. Although
                   he was capable of acting professionally when called to
                   intervene as Chairman of the Hunter Association, on all other
                   occasions, he proved himself to be so extravagant he was

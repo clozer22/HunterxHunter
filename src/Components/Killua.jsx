@@ -11,7 +11,7 @@ const Killua = () => {
       style={{ backgroundImage: `url(${require(`../Assets/light.png`)})` }}
     >
       <div className="col-span-1 flex justify-center text-center items-center flex-col" style={{fontFamily: 'Fonstars'}}>
-        <h1 className="lg:text-[5rem] xsm:text-[3rem] font-bold text-white sm:mt-8">Killua Zoldyck</h1>
+        <h1 className="lg:text-[3.5rem] xsm:text-[3rem] font-bold text-white sm:mt-8">Killua Zoldyck</h1>
         <div className="">
           <button className="text-white group border-2 px-6 py-3 my-2 flex items-center bg-[#F24B28]  hover:bg-[#F24B28] hover:border-pink-600">
           <Link to="/killua_info">Read more</Link>

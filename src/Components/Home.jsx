@@ -15,18 +15,18 @@ const Home = () => {
       {/* Container */}
       <div className="bg-black grid lg:grid-cols-2 gap-4 w-full lg:h-full">
         <div
-          className="col-span-1 max-w-[1000px] mx-auto flex flex-col sm:justify-center h-full sm:mb-8 "
+          className="col-span-1 max-w-[1000px] mx-auto flex flex-col sm:justify-center h-full sm:mb-8 lg:pl-10 "
           style={{ fontFamily: "Fonstars" }}
         >
           <p className="text-white lg:text-[1.5rem] lg:text-left sm:text-center xsm:text-center xsm:text-[.8rem] xsm:mt-[5rem] sm:text-[1rem]">
             Welcome to
           </p>
-          <h1 className="lg:text-[3rem] sm:text-[2rem] lg:text-left sm:text-center xsm:text-center xsm:text-[1.7rem]  font-extrabold text-[#f8faff] ">
+          <h1 className="lg:text-[2rem] sm:text-[2rem] lg:text-left sm:text-center xsm:text-center xsm:text-[1.7rem]  font-extrabold text-[#f8faff] ">
             <span className="text-white">Hunter</span>{" "}
             <span className="text-[#3cb62b]">x</span>{" "}
             <span className="text-[#F24B28]">Website</span>{" "}
           </h1>
-          <h2 className="lg:text-[3rem] sm:text-[2rem] lg:text-left sm:text-center xsm:text-center xsm:text-[1.5rem] font-bold text-[#8892b0]">
+          <h2 className="lg:text-[2rem] sm:text-[2rem] lg:text-left sm:text-center xsm:text-center xsm:text-[1.5rem] font-bold text-[#8892b0]">
             I'm a{" "}
             <Typed
               className=""
@@ -41,7 +41,7 @@ const Home = () => {
             information on the Hunters' Tavern.
           </p>
           <div className="flex lg:mx-0 sm:mx-auto xsm:mx-auto">
-            <button  onClick={handleScroll} className="text-white group lg:text-[1.5rem] xsm:text-[.9rem] border-2 lg:px-6 lg:py-3 xsm:px-4 xsm:py-2 xsm:items-center lg:my-2 flex sm:items-center hover:bg-[#F24B28] hover:border-pink-600">
+            <button  onClick={handleScroll} className="text-white group lg:text-[1rem] xsm:text-[.9rem] border-2 lg:px-6 lg:py-3 xsm:px-4 xsm:py-2 xsm:items-center lg:my-2 flex sm:items-center hover:bg-[#F24B28] hover:border-pink-600">
                View more
               <span className="group-hover:rotate-90 duration-300">
                 <HiArrowNarrowRight className="ml-3" />
@@ -53,7 +53,7 @@ const Home = () => {
           <img
             src={hxh}
             alt=""
-            className="lg:w-[40rem] hover:scale-105 duration-300 sm:w-[30rem] xsm:w-[20rem]"
+            className="lg:w-[30rem] hover:scale-105 duration-300 sm:w-[30rem] xsm:w-[20rem]"
           />
         </div>
       </div>

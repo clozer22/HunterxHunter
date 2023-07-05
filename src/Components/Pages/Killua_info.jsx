@@ -17,7 +17,7 @@ const Killua_info = () => {
   return (
     <div
       name="home"
-      className="w-full h-[550px]  bg-black bg-no-repeat  sm:grid-cols-1 bg-cover bg-center bg-gradient-to-br from-black"
+      className="w-full h-[500px]  bg-black bg-no-repeat  sm:grid-cols-1 bg-cover bg-center bg-gradient-to-br from-black"
       style={{
         backgroundImage: `url(${require(`../../Assets/KilluaInfo4.jpg`)})`,
       }}
@@ -64,13 +64,13 @@ const Killua_info = () => {
       >
         <div id="section2" className="col-span-1 items-center ml-7">
           <h1
-            className="font-bold text-[5rem] text-white text-center"
+            className="font-bold lg:text-[3rem] text-white text-center"
             style={{ fontFamily: "Fonstars" }}
           >
             Killua Zoldyck
           </h1>
           <div className="bg-black rounded text-white mb-5">
-            <p className="font-bold text-center text-[1.5rem]">
+            <p className="font-bold text-center lg:text-[1rem]">
               "I'm so tired of killing... I just want to be a kid. Hanging out,
               doing stuff with Gon. That's it."
             </p>

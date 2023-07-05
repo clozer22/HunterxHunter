@@ -11,7 +11,7 @@ const Skills = () => {
       style={{ backgroundImage: `url(${require(`../Assets/smoke.jpg`)})` }}
     >
       <div className="col-span-1 flex justify-center text-center items-center flex-col" style={{fontFamily: 'Fonstars'}}>
-        <h1 className="lg:text-[5rem] xsm:text-[3rem] font-bold text-white sm:mt-8">
+        <h1 className="lg:text-[3.5rem] xsm:text-[3rem] font-bold text-white sm:mt-8">
           Hisoka Morow
         </h1>
         <div className="">

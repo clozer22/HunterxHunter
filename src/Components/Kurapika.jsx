@@ -10,7 +10,7 @@ const Kurapika = () => {
       style={{ backgroundImage: `url(${require(`../Assets/redsmoke.jpg`)})` }}
     >
       <div className="col-span-1 flex justify-center text-center items-center flex-col" style={{fontFamily: 'Fonstars'}}>
-        <h1 className="lg:text-[5rem] xsm:text-[3rem] font-bold text-white sm:mt-8">
+        <h1 className="lg:text-[3.5rem] xsm:text-[3rem] font-bold text-white sm:mt-8">
           Kurapika 
         </h1>
         <div className="">

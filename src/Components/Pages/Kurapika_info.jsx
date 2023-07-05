@@ -64,13 +64,13 @@ const Kurapika_info = () => {
           className="col-span-1 items-center pl-5 lg:bg-gradient-to-bl to-black"
         >
           <h1
-            className="font-bold text-[5rem] text-white text-center"
+            className="font-bold lg:text-[3rem] text-white text-center"
             style={{ fontFamily: "Fonstars" }}
           >
             Kurapika
           </h1>
           <div className="bg-black rounded text-white mb-5">
-            <p className="font-bold text-center text-[1.5rem]">
+            <p className="font-bold text-center lg:text-[1rem]">
               "I do not fear death. What I fear is that my rage will one day
               fade away."
             </p>
