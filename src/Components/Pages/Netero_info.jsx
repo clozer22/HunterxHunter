@@ -187,12 +187,12 @@ const Netero_info = () => {
         <div className="col-span-1 text-center items-center flex justify-center h-[1240px] lg:bg-gradient-to-br sm:bg-transparent from-black "></div>
       </div>
       <div
-        className=" w-full h-screen bg-no-repeat bg-cover bg-center "
+        className=" w-full h-[1000px] bg-no-repeat bg-cover bg-center "
         style={{
           backgroundImage: `url(${require(`../../Assets/netero5.jpg`)})`,
         }}
       >
-        <div className="py-5 flex justify-center items-center text-white">
+        <div className="py-5 px-10 flex justify-center items-center text-white">
           <table class="table-auto">
             <thead className="bg-black text-white">
               <tr className=" ">

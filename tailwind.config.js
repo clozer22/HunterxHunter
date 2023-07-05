@@ -4,6 +4,7 @@ module.exports = {
   theme: {
     extend: {
       screens: {
+        rdm: '360px',
         xsm: '414px', // New breakpoint value
         sm: '640px',
         md: '768px',

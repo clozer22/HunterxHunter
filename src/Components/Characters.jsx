@@ -25,10 +25,10 @@ const Characters = () => {
         style={{ fontFamily: "Fonstars" }}
       >
         <p className="text-white text-[1.5rem]"></p>
-        <h1 className="lg:text-5xl sm:text-7xl xsm:text-[1.5rem] xsm:text-center font-extrabold text-[#f8faff] mb-5">
+        <h1 className="lg:text-5xl sm:text-7xl xsm:text-[1.5rem] rdm:text-[1.5rem] xsm:text-center font-extrabold text-[#f8faff] mb-5">
           <span className="text-white">Hunter</span>{" "}
           <span className="text-[#3cb62b]">x</span>{" "}
-          <span className="text-[#F24B28]" style={{ fontFamily: "Fonstars" }}>
+          <span className="text-[#F24B28]">
             Characters
           </span>{" "}
         </h1>
@@ -42,14 +42,16 @@ const Characters = () => {
             loop
           />{" "}
         </h2>
-        <p className="text-[#8892b0] py-4 max-w-[700px] lg:text-[1rem] xsm:px-6  xsm:text-[.7rem] text-center">
-          
-        </p>
+        <p className="text-[#8892b0] py-4 max-w-[700px] lg:text-[1rem] xsm:px-6  xsm:text-[.7rem] text-center"></p>
         <div>
-          <input className="w-full px-[7rem] py-3 rounded text-center" type="text" placeholder="Search name" />
+          <input
+            className="lg:w-full lg:px-[7rem] rdm:px-[5rem] lg:py-3 rdm:py-2 rounded text-center"
+            type="text"
+            placeholder="Search name"
+          />
         </div>
         <div>
-          <button className="text-white bg-[#F24B28] group lg:text-[1rem] xsm:text-[.6rem] border-2 px-6 py-3 my-2 flex items-center hover:bg-transparent hover:border-pink-600">
+          <button className="text-white bg-[#F24B28] group lg:text-[1rem] xsm:text-[.6rem] rdm:text-[.7rem] border-2 px-6 py-3 my-2 flex items-center hover:bg-transparent hover:border-pink-600">
             Search
             <span className="group-hover:rotate-90 duration-300">
               <HiArrowNarrowRight className="ml-3" />
@@ -57,9 +59,9 @@ const Characters = () => {
           </button>
         </div>
       </div>
-      <div className="text-center mt-11 mb-10 xsm:mt-5 xsm:mb-5 bg-black text-white">
+      <div className="text-center mt-11 mb-10 xsm:mt-5 xsm:mb-5 rdm:mt-3 rdm:mb-3 bg-black text-white">
         <h1
-          className="lg:text-[4rem] xsm:text-[2rem] font-extrabold"
+          className="lg:text-[4rem] xsm:text-[2rem] rdm:text-[2rem] font-extrabold"
           style={{ fontFamily: "Fonstars" }}
         >
           CHARACTERS

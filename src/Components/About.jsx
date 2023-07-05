@@ -7,13 +7,13 @@ const About = () => {
       <div className="grid lg:grid-cols-2 w-full lg:h-full">
         <div className="col-span-1 pl-3 flex flex-col justify-center text-center items-center bg-gray-800">
           <h1
-            id="about1" className=" lg:text-[3rem] lg:mb-3 xsm:mb-4 xsm:mt-3 text-[#F24B28] sm:text-[2.5rem] xsm:text-[2rem]"
+            id="about1" className=" lg:text-[3rem] lg:mb-3 xsm:mb-4 xsm:mt-3 rdm:mb-4 rdm:mt-3 text-[#F24B28] sm:text-[2.5rem] xsm:text-[2rem] rdm:text-[2rem]"
             style={{ fontFamily: "Fonstars" }}
           >
             Hunterpedia
           </h1>
           <h2
-            className="lg:text-[1rem]  text-white sm:text-[.9rem] lg:mx-0 xsm:text-[.6rem] xsm:mx-5"
+            className="lg:text-[1rem]  text-white sm:text-[.9rem] lg:mx-0 xsm:text-[.6rem] rdm:text-[.7rem] xsm:mx-5"
             style={{ fontFamily: "Fonstars" }}
           >
             Welcome to our Hunter x Hunter character website! Dive into the
@@ -34,7 +34,7 @@ const About = () => {
       <div className="w-full lg:h-screen xsm:h-[700px]">
         <div className="col-span-2  justify-center flex flex-col items-center bg-gray-800 text-center py-10">
           <h1
-            className="text-[#F24B28] mb-5 text-center lg:text-[3rem] lg:mt-[8rem] xsm:mt-[2rem] sm:text-[2.5rem] xsm:text-[1.6rem]"
+            className="text-[#F24B28] mb-5 text-center lg:text-[3rem] lg:mt-[8rem] xsm:mt-[2rem] sm:text-[2.5rem] xsm:text-[1.6rem] rdm:text-[1.3rem]"
             style={{ fontFamily: "Fonstars" }}
           >
             Gon and killua moments

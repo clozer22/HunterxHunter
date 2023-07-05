@@ -187,7 +187,7 @@ const Killua_info = () => {
           backgroundImage: `url(${require(`../../Assets/KilluaInfo5.png`)})`,
         }}
       >
-        <div className="py-5 flex justify-center items-center text-white">
+        <div className="py-5 lg:px-10 flex justify-center items-center text-white">
           <table class="table-auto w-[100rem]">
             <thead className="bg-black text-white">
               <tr className=" ">

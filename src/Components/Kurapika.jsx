@@ -10,7 +10,7 @@ const Kurapika = () => {
       style={{ backgroundImage: `url(${require(`../Assets/redsmoke.jpg`)})` }}
     >
       <div className="col-span-1 flex justify-center text-center items-center flex-col" style={{fontFamily: 'Fonstars'}}>
-        <h1 className="lg:text-[3.5rem] xsm:text-[3rem] font-bold text-white sm:mt-8">
+        <h1 className="lg:text-[3.5rem] xsm:text-[3rem] rdm:text-[2.5rem] rdm:mt-3 font-bold text-white sm:mt-8">
           Kurapika 
         </h1>
         <div className="">
@@ -26,7 +26,7 @@ const Kurapika = () => {
         <img
           src={kurapika}
           alt=""
-          className="w-[30rem] lg:h-[40rem] xsm:h-[25rem]  drop-shadow-lg relative hover:scale-105 duration-300"
+          className="w-[30rem] lg:h-[40rem] xsm:h-[25rem] rdm:h-[30rem]  drop-shadow-lg relative hover:scale-105 duration-300"
         />
       </div>
     </div>

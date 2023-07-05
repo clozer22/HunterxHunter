@@ -17,10 +17,10 @@ const Navbar = () => {
     element.scrollIntoView({ behavior: "smooth" });
   };
   return (
-    <div className="fixed z-[100] lg:w-full xsm:w-[450px] h-[80px] flex justify-between items-center px-4 bg-transparent text-white">
+    <div className="fixed z-[100] lg:w-full xsm:w-[450px] rdm:w-[390px] h-[80px] flex justify-between items-center lg:px-4 bg-transparent text-white">
       <div className="">
         <img
-          className="cursor-pointer lg:w-[200px] xsm:w-[120px]"
+          className="cursor-pointer lg:w-[200px] xsm:w-[120px] rdm:w-[150px]"
           src={logo}
           alt="Logo Image"
         />
@@ -39,20 +39,15 @@ const Navbar = () => {
           </NavLink>
         </li>
         <li className="hover:border-b-2 border-b-[#9A208C]">Arc</li>
-        <li
-          className="hover:border-b-2 border-b-[#9A208C]"
-         
-        >
-          About
-        </li>
+        <li className="hover:border-b-2 border-b-[#9A208C]">About</li>
       </ul>
 
       {/* Hamburger Menu */}
       <div onClick={handleClick} className="md:hidden z-10">
         {!nav ? (
-          <FaBars className="xsm:mr-10" />
+          <FaBars className="xsm:mr-10 rdm:mr-10" />
         ) : (
-          <FaTimes className="xsm:mr-7" />
+          <FaTimes className="xsm:mr-7 rdm:mr-10" />
         )}
       </div>
 
@@ -61,17 +56,17 @@ const Navbar = () => {
         className={
           !nav
             ? "hidden"
-            : "absolute lg:top-0 xsm:top-0 left-0 lg:w-full xsm:w-full lg:h-screen xsm:h-[500px] bg-black flex flex-col xsm:justify-center xsm:items-center"
+            : "absolute lg:top-0 xsm:top-0 rdm:top-0 rdm:w-full left-0 lg:w-full xsm:w-full lg:h-screen xsm:h-[500px] bg-black flex flex-col xsm:justify-center xsm:items-center rdm:justify-center rdm:items-center"
         }
       >
         <img
-          className="cursor-pointer xsm:w-[200px]"
+          className="cursor-pointer xsm:w-[200px] rdm:w-[300px]"
           src={logo}
           alt="Logo Image"
         />
 
         <li className="py-6 text-4xl xsm:text-[2rem] hover:border-b-4 border-b-[#9A208C]">
-        <NavLink to="/" activeClassName="active-link">
+          <NavLink to="/" activeClassName="active-link">
             Home
           </NavLink>
         </li>

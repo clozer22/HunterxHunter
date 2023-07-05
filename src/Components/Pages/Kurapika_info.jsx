@@ -179,17 +179,17 @@ const Kurapika_info = () => {
         <div className="col-span-1 text-center items-center lg:bg-gradient-to-br to-black"></div>
       </div>
       <div
-        className=" w-full h-screen bg-no-repeat bg-cover bg-center "
+        className=" w-full bg-no-repeat bg-cover bg-center "
         style={{
           backgroundImage: `url(${require(`../../Assets/kurapika_info2.jpg`)})`,
         }}
       >
-        <div className="py-5 flex justify-center items-center text-white">
+        <div className="py-5  px-10 flex justify-center items-center text-white">
           <table class="table-auto w-[100rem]">
             <thead className="bg-black text-white">
               <tr className=" ">
                 <th
-                  className="py-2 text-center justify-center items-center text-[2rem]"
+                  className="py-2  text-center justify-center items-center text-[2rem]"
                   style={{ fontFamily: "Fonstars" }}
                 >
                   Personality

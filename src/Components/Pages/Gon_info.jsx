@@ -3,7 +3,7 @@ import { HiArrowNarrowRight } from "react-icons/hi";
 import Typed from "react-typed";
 import killua from "../../Assets/killua.png";
 import { BsGenderMale } from "react-icons/bs";
-import gon from '../../Assets/gonInfo3.png'
+import gon from "../../Assets/gonInfo3.png";
 
 const Killua_info = () => {
   const handleScroll = () => {
@@ -171,12 +171,12 @@ const Killua_info = () => {
         <div className="col-span-1 text-center items-center"></div>
       </div>
       <div
-        className=" w-full h-screen bg-no-repeat bg-cover bg-center "
+        className=" w-full h-[1100px] bg-no-repeat bg-cover bg-center "
         style={{
           backgroundImage: `url(${require(`../../Assets/gonInfo2.jpg`)})`,
         }}
       >
-        <div className="py-5 flex justify-center items-center text-white">
+        <div className="py-5 px-10 flex justify-center items-center text-white">
           <table class="table-auto w-[100rem]">
             <thead className="bg-black text-white">
               <tr className=" ">
@@ -186,12 +186,13 @@ const Killua_info = () => {
                 >
                   Personality
                 </th>
-                
               </tr>
             </thead>
             <tbody className="bg-[#5f5f5f]">
               <tr className="border-black border-b-2">
-                <td className="font-bold py-3 pl-2"><img className="w-[50rem] h-[20rem]" src={gon} alt="" /></td>
+                <td className="font-bold py-3 pl-2">
+                  <img className="w-[50rem] h-[20rem]" src={gon} alt="" />
+                </td>
                 <td className="py-3 pl-2 text-[1.2rem] font-bold">
                   Gon is an athletic, rustic, and friendly boy who is searching
                   for adventure. Also, he is not very good at math. However,
@@ -204,47 +205,47 @@ const Killua_info = () => {
                   very good vision, as well as having a very keen taste. Gon
                   wants to become a Hunter because he wishes to find out the
                   depths of an occupation that would cause a father to choose
-                  the profession over being with his own son. <br /> <br /> Simultaneously,
-                  his flaws lie in his temper and impulsive nature. Gon
-                  sometimes fails to think things through and such actions lead
-                  to him suffering. Though possessing talent far beyond the norm
-                  for his age, anytime his abilities are challenged, he feels as
-                  if he has to prove his antagonist wrong.  <br /> <br />  He continually
-                  strives to obtain greater power, often becoming exceptionally
-                  stronger in his anger. But Gon's anger also leads to some
-                  extremely reckless tendencies. When his emotions are ignited,
-                  Gon becomes irrational and completely oblivious to anything
-                  else. While his will is stronger than most and he can be very
-                  level-headed, this clear mind can also make him very cold at
-                  times. When Gon is cool-headed, it is shown that he can think
-                  very creatively and thoughtfully to solve a problem. The prime
-                  example is in the third stage of the Hunter Exam in which he
-                  can think clearly enough under heavy stress to find the way to
-                  get through the locked door to the finish line with all his
-                  companions by breaking the wall to lead to the finish line in
-                  time, which is the feat not even level-headed people like
-                  Kurapika or Killua can think of.  <br /> <br />  Often it is difficult for
-                  others to understand or relate Gon's actions or thoughts to
-                  what people would consider "normal" thinking, with some
-                  believing him to be a little insane. Zepile remarked on how
-                  Gon "doesn't care about the good or the bad" when he is
-                  curious or amazed.[5] His morality is complex, almost
-                  juridical: Gon values life and ethics, but he can dissociate
-                  his personal feelings from them. He thanked Binolt, a serial
-                  killer, after he helped him get stronger,[6] and, in spite of
-                  being aware of how dangerous he is, Gon admires Hisoka for his
-                  might. Despite wanting to put a stop to the actions of the
-                  Phantom Troupe, Gon never hated them until he discovered they
-                  were capable of feeling emotion and empathy.[7] He never
-                  judged Killua for his past as an assassin, but he snapped at
-                  Illumi when he started to suspect that, rather than Killua
-                  killing because he was not taught to value life, his family
-                  was forcing him to do so regardless of how he felt about
-                  it.[8] Notably, however, he did not even think about warning
-                  Agon when the latter was about to cross paths with Hisoka,
-                  despite knowing fully well that the encounter would inevitably
-                  result in the man's death, all for the sake of obtaining the
-                  magician's tag.
+                  the profession over being with his own son. <br /> <br />{" "}
+                  Simultaneously, his flaws lie in his temper and impulsive
+                  nature. Gon sometimes fails to think things through and such
+                  actions lead to him suffering. Though possessing talent far
+                  beyond the norm for his age, anytime his abilities are
+                  challenged, he feels as if he has to prove his antagonist
+                  wrong. <br /> <br /> He continually strives to obtain greater
+                  power, often becoming exceptionally stronger in his anger. But
+                  Gon's anger also leads to some extremely reckless tendencies.
+                  When his emotions are ignited, Gon becomes irrational and
+                  completely oblivious to anything else. While his will is
+                  stronger than most and he can be very level-headed, this clear
+                  mind can also make him very cold at times. When Gon is
+                  cool-headed, it is shown that he can think very creatively and
+                  thoughtfully to solve a problem. The prime example is in the
+                  third stage of the Hunter Exam in which he can think clearly
+                  enough under heavy stress to find the way to get through the
+                  locked door to the finish line with all his companions by
+                  breaking the wall to lead to the finish line in time, which is
+                  the feat not even level-headed people like Kurapika or Killua
+                  can think of. <br /> <br /> Often it is difficult for others
+                  to understand or relate Gon's actions or thoughts to what
+                  people would consider "normal" thinking, with some believing
+                  him to be a little insane. Zepile remarked on how Gon "doesn't
+                  care about the good or the bad" when he is curious or
+                  amazed.[5] His morality is complex, almost juridical: Gon
+                  values life and ethics, but he can dissociate his personal
+                  feelings from them. He thanked Binolt, a serial killer, after
+                  he helped him get stronger,[6] and, in spite of being aware of
+                  how dangerous he is, Gon admires Hisoka for his might. Despite
+                  wanting to put a stop to the actions of the Phantom Troupe,
+                  Gon never hated them until he discovered they were capable of
+                  feeling emotion and empathy.[7] He never judged Killua for his
+                  past as an assassin, but he snapped at Illumi when he started
+                  to suspect that, rather than Killua killing because he was not
+                  taught to value life, his family was forcing him to do so
+                  regardless of how he felt about it.[8] Notably, however, he
+                  did not even think about warning Agon when the latter was
+                  about to cross paths with Hisoka, despite knowing fully well
+                  that the encounter would inevitably result in the man's death,
+                  all for the sake of obtaining the magician's tag.
                 </td>
               </tr>
             </tbody>
