@@ -45,7 +45,7 @@ const Characters = () => {
         <p className="text-[#8892b0] py-4 max-w-[700px] lg:text-[1rem] xsm:px-6  xsm:text-[.7rem] text-center"></p>
         <div>
           <input
-            className="lg:w-full lg:px-[7rem] rdm:px-[5rem] lg:py-3 rdm:py-2 rounded text-center"
+            className="lg:w-full lg:px-[7rem] xsm:px-[4rem] rdm:px-[3rem] lg:py-3 rdm:py-2 rounded text-center"
             type="text"
             placeholder="Search name"
           />
