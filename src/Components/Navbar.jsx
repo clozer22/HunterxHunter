@@ -17,7 +17,7 @@ const Navbar = () => {
     element.scrollIntoView({ behavior: "smooth" });
   };
   return (
-    <div className="fixed z-[100] lg:w-full xsm:w-[450px] rdm:w-[350px] h-[80px] flex justify-between items-center lg:px-4 bg-transparent text-white">
+    <div className="fixed z-[100] lg:w-full xsm:w-[450px] rdm:w-[400px] h-[80px] flex justify-between items-center lg:px-4 bg-transparent text-white">
       <div className="">
         <img
           className="cursor-pointer lg:w-[200px] xsm:w-[120px] rdm:w-[150px]"
@@ -45,9 +45,9 @@ const Navbar = () => {
       {/* Hamburger Menu */}
       <div onClick={handleClick} className="md:hidden z-10">
         {!nav ? (
-          <FaBars className="xsm:mr-10 rdm:mr-10" />
+          <FaBars className="xsm:mr-10 rdm:mr-11" />
         ) : (
-          <FaTimes className="xsm:mr-7 rdm:mr-10" />
+          <FaTimes className="xsm:mr-7 rdm:mr-11" />
         )}
       </div>
 
