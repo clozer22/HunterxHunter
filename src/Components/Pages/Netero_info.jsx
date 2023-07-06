@@ -55,7 +55,7 @@ const Netero_info = () => {
         </h1>
       </div>
       <div
-        className=" lg:h-[1240px] sm:h-[1450px] rdm:h-[1400px]  lg:w-full  bg-no-repeat bg-cover bg-center "
+        className=" lg:h-[1240px] sm:h-[1450px] rdm:h-[1200px]  lg:w-full  bg-no-repeat bg-cover bg-center "
         style={{
           backgroundImage: `url(${require(`../../Assets/neteroInfo2.png`)})`,
         }}
@@ -178,7 +178,7 @@ const Netero_info = () => {
         <div className="col-span-1 text-center items-center flex justify-center h-[1240px] lg:bg-gradient-to-br sm:bg-transparent from-black "></div>
       </div>
       <div
-        className=" w-full lg:h-[1000px] bg-no-repeat bg-cover bg-center "
+        className=" w-full lg:h-[1000px]  bg-no-repeat bg-cover bg-center "
         style={{
           backgroundImage: `url(${require(`../../Assets/netero5.jpg`)})`,
         }}
@@ -199,7 +199,7 @@ const Netero_info = () => {
               <tr className="border-black border-b-2">
                 <td className="font-bold py-3 pl-2">
                   <img
-                    className="lg:w-[50rem] h-[20rem] rdm:w-[60rem]"
+                    className="lg:w-[50rem] lg:h-[20rem] rdm:h-[10rem] rdm:w-[50rem]"
                     src={netero2}
                     alt=""
                   />

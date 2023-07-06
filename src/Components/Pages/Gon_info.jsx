@@ -46,7 +46,7 @@ const Killua_info = () => {
       </div>
       <div className="text-center  bg-black text-white">
         <h1
-          className="text-[4rem] font-extrabold"
+          className="lg:text-[4rem] rdm:text-[2.5rem] font-extrabold"
           style={{ fontFamily: "Fonstars" }}
         >
           Info
@@ -191,7 +191,7 @@ const Killua_info = () => {
             <tbody className="bg-[#5f5f5f]">
               <tr className="border-black border-b-2">
                 <td className="font-bold py-3 pl-2">
-                  <img className="w-[50rem] h-[20rem]" src={gon} alt="" />
+                  <img className="w-[50rem] lg:h-[20rem] rdm:h-[9rem]" src={gon} alt="" />
                 </td>
                 <td className="py-3 pl-2 text-[1.2rem] font-bold">
                   Gon is an athletic, rustic, and friendly boy who is searching

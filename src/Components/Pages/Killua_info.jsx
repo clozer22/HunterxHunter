@@ -202,7 +202,7 @@ const Killua_info = () => {
             <tbody className="bg-[#5f5f5f]">
               <tr className="">
                 <td className="font-bold py-3 pl-2">
-                  <img className="w-[50rem] h-[20rem]" src={killua2} alt="" />
+                  <img className="w-[50rem] lg:h-[20rem] rdm:h-[10rem]" src={killua2} alt="" />
                 </td>
                 <td className="py-3 pl-2 text-[1.2rem] font-bold">
                   Initially, Killua is introduced as a character who appears
@@ -237,7 +237,7 @@ const Killua_info = () => {
               </tr>
               <tr>
                 <td className="font-bold py-3 pl-2">
-                  <img className="lg:w-[50rem] h-[20rem]" src={killua3} alt="" />
+                  <img className="lg:w-[50rem] lg:h-[20rem] rdm:h-[10rem]" src={killua3} alt="" />
                 </td>
                 <td className="py-3 pl-2 text-[1.2rem] font-bold">
                   However, his ruthlessness and aptitude in killing show the
@@ -255,7 +255,7 @@ const Killua_info = () => {
               </tr>
               <tr>
                 <td className="font-bold py-3 pl-2">
-                  <img className="w-[50rem] h-[20rem]" src={killua4} alt="" />
+                  <img className="w-[50rem] lg:h-[20rem] rdm:h-[10rem]" src={killua4} alt="" />
                 </td>
                 <td className="py-3 pl-2 text-[1.2rem] font-bold">
                   Until recently, Killua's greatest flaw was his fear of those
@@ -286,7 +286,7 @@ const Killua_info = () => {
               </tr>
               <tr>
                 <td className="font-bold py-3 pl-2">
-                  <img className="w-[50rem] h-[20rem]" src={killua5} alt="" />
+                  <img className="w-[50rem] lg:h-[20rem] rdm:h-[10rem]" src={killua5} alt="" />
                 </td>
                 <td className="py-3 pl-2 text-[1.2rem] font-bold">
                   During the events of Greed Island, Killua has shown to be
