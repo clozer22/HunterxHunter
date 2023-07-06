@@ -70,7 +70,7 @@ const Netero_info = () => {
           >
             Isaac netero
           </h1>
-          <div className="bg-black rounded text-white lg:mb-5 rdm:mb-2 rdm:mx-7">
+          <div className="bg-black rounded text-white lg:mb-5 rdm:mb-2">
             <p className="font-bold lg:text-center rdm:text-center text-[1rem]">
               "When? When did I start waiting for my opponent to make the first
               move? When, indeed? It became a routine. The loser held out his
@@ -87,19 +87,10 @@ const Netero_info = () => {
           </div>
           <div>
             <p className="text-white mb-7 lg:text-[.8rem] font-bold">
-              <span className="font-bold">Killua Zoldyck</span>{" "}
-              (キルア゠ゾルディック, Kirua Zorudikku) is the third child of
-              Silva and Kikyo Zoldyck and the heir of the Zoldyck Family, until
-              he runs away from home and becomes a Rookie Hunter. He is the best
-              friend of Gon Freecss and is currently traveling with Alluka
-              Zoldyck.
-            </p>
-            <p className="text-white mb-3 lg:text-[1.3rem] font-bold">
-              He has served as the deuteragonist for the series, having said
-              role in the Heavens Arena, Greed Island, and Chimera Ant arcs. He
-              was the main protagonist of the 13th Hunter Chairman Election arc.
-              He also was the tritagonist of the Hunter Exam arc and the Yorknew
-              City arc.
+              <span className="font-bold"> Isaac Netero(アイザック゠ネテロ, Aizakku Netero)</span> was the 12th Chairman of the
+              Hunter Association[6] and the Head of the Exam Commission.[7] In
+              his youth, he was extolled as the most powerful Nen user in the
+              world, and retained dreadful strength even in his old age.
             </p>
           </div>
           <div className=" text-white flex sm:h-[400px]">
