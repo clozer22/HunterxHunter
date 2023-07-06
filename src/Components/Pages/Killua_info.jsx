@@ -27,8 +27,8 @@ const Killua_info = () => {
         className="w-full  flex flex-col justify-center items-center h-full bg-gradient-to-b  from-black"
         style={{ fontFamily: "Fonstars" }}
       >
-        <p className="text-white text-[1.5rem]"></p>
-        <h1 className="text-4xl sm:text-7xl font-extrabold text-[#f8faff]">
+        <p className="text-white lg:text-[1.5rem]"></p>
+        <h1 className="lg:text-4xl sm:text-7xl rdm:text-[2rem] font-extrabold text-[#f8faff]">
           Killua Zoldyck
         </h1>
         <h2 className="text-4xl sm:text-5xl font-bold text-[#8892b0]"></h2>
@@ -50,21 +50,21 @@ const Killua_info = () => {
       </div>
       <div className="text-center  bg-black text-white">
         <h1
-          className="text-[4rem] font-extrabold"
+          className="lg:text-[4rem] rdm:text-[3rem] font-extrabold"
           style={{ fontFamily: "Fonstars" }}
         >
           Info
         </h1>
       </div>
       <div
-        className="grid lg:grid-cols-2 h-[1240px] w-full bg-no-repeat bg-cover bg-center"
+        className="grid lg:grid-cols-2 lg:h-[1240px] w-full bg-no-repeat bg-cover bg-center"
         style={{
           backgroundImage: `url(${require(`../../Assets/KilluaInfo5.png`)})`,
         }}
       >
-        <div id="section2" className="col-span-1 items-center ml-7">
+        <div id="section2" className="col-span-1 items-center lg:ml-7">
           <h1
-            className="font-bold lg:text-[3rem] text-white text-center"
+            className="font-bold lg:text-[3rem] rdm:text-[2rem] rdm:mt-5 text-white text-center"
             style={{ fontFamily: "Fonstars" }}
           >
             Killua Zoldyck
@@ -96,11 +96,11 @@ const Killua_info = () => {
             </p>
           </div>
           <div className=" text-white flex">
-            <table class="table-auto m-7 w-full">
+            <table class="table-auto lg:m-7 w-full">
               <thead className="bg-black">
                 <tr className="py-5 ">
                   <th
-                    className="py-2 text-center justify-center items-center text-[2rem]"
+                    className="py-2 text-center justify-center items-center lg:text-[2rem]"
                     style={{ fontFamily: "Fonstars" }}
                   >
                     Killua Zoldyck
@@ -121,7 +121,7 @@ const Killua_info = () => {
               <thead className="bg-black">
                 <tr className="py-7 ">
                   <th
-                    className="py-3 text-center justify-center items-center text-[2rem]"
+                    className="py-3 text-center justify-center items-center lg:text-[2rem]"
                     style={{ fontFamily: "Fonstars" }}
                   >
                     Characteristics
@@ -155,7 +155,7 @@ const Killua_info = () => {
               <thead className="bg-black">
                 <tr className="">
                   <th
-                    className="py-3 text-[2rem]"
+                    className="py-3 lg:text-[2rem]"
                     style={{ fontFamily: "Fonstars" }}
                   >
                     Nen
@@ -192,7 +192,7 @@ const Killua_info = () => {
             <thead className="bg-black text-white">
               <tr className=" ">
                 <th
-                  className="py-2 text-center justify-center items-center text-[2rem]"
+                  className="py-2 text-center justify-center items-center lg:text-[2rem]"
                   style={{ fontFamily: "Fonstars" }}
                 >
                   Personality
@@ -237,7 +237,7 @@ const Killua_info = () => {
               </tr>
               <tr>
                 <td className="font-bold py-3 pl-2">
-                  <img className="w-[50rem] h-[20rem]" src={killua3} alt="" />
+                  <img className="lg:w-[50rem] h-[20rem]" src={killua3} alt="" />
                 </td>
                 <td className="py-3 pl-2 text-[1.2rem] font-bold">
                   However, his ruthlessness and aptitude in killing show the

@@ -13,7 +13,7 @@ const Netero_info = () => {
   return (
     <div
       name="home"
-      className="w-full lg:h-[550px]  bg-black bg-no-repeat  sm:grid-cols-1 bg-cover bg-center bg-gradient-to-br from-black"
+      className="w-full lg:h-[550px] rdm:h-[550px]  bg-black bg-no-repeat  sm:grid-cols-1 rdm:grid-cols-1 bg-cover bg-center bg-gradient-to-br from-black"
       style={{
         backgroundImage: `url(${require(`../../Assets/netero2.png`)})`,
       }}
@@ -24,7 +24,7 @@ const Netero_info = () => {
         style={{ fontFamily: "Fonstars" }}
       >
         <p className="text-white text-[1.5rem]"></p>
-        <h1 className="text-4xl sm:text-7xl font-extrabold text-[#f8faff]">
+        <h1 className="lg:text-4xl sm:text-7xl rdm:text-[2rem] font-extrabold text-[#f8faff]">
           Isaac Netero
         </h1>
         <h2 className="text-4xl sm:text-5xl font-bold text-[#8892b0]"></h2>
@@ -48,30 +48,30 @@ const Netero_info = () => {
       </div>
       <div className="text-center  bg-black text-white">
         <h1
-          className="text-[4rem] font-extrabold"
+          className="lg:text-[4rem] rdm:text-[3rem] font-extrabold"
           style={{ fontFamily: "Fonstars" }}
         >
           Info
         </h1>
       </div>
       <div
-        className="grid bg-black lg:grid-cols-2 lg:h-[1240px] sm:h-[1450px]  w-full bg-no-repeat bg-cover bg-center "
+        className=" lg:h-[1240px] sm:h-[1450px] rdm:h-[1400px]  lg:w-full  bg-no-repeat bg-cover bg-center "
         style={{
           backgroundImage: `url(${require(`../../Assets/neteroInfo2.png`)})`,
         }}
       >
         <div
           id="section2"
-          className="col-span-1 items-center pl-6 h-[1240px] lg:bg-gradient-to-bl lg:relative sm:absolute  from-black"
+          className="col-span-1 items-center  lg:pl-6 h-[1240px] lg:bg-gradient-to-bl sm:absolute  from-black"
         >
           <h1
-            className="font-bold lg:text-[3rem] text-white text-center"
+            className="font-bold lg:text-[3rem] rdm:text-[2rem] text-white text-center"
             style={{ fontFamily: "Fonstars" }}
           >
             Isaac netero
           </h1>
-          <div className="bg-black rounded text-white mb-5">
-            <p className="font-bold text-center text-[1rem]">
+          <div className="bg-black rounded text-white lg:mb-5 rdm:mb-2 rdm:mx-7">
+            <p className="font-bold lg:text-center rdm:text-center text-[1rem]">
               "When? When did I start waiting for my opponent to make the first
               move? When, indeed? It became a routine. The loser held out his
               hands in gratitude for the lesson and I graciously accepted
@@ -94,7 +94,7 @@ const Netero_info = () => {
               friend of Gon Freecss and is currently traveling with Alluka
               Zoldyck.
             </p>
-            <p className="text-white mb-3 text-[1.3rem] font-bold">
+            <p className="text-white mb-3 lg:text-[1.3rem] font-bold">
               He has served as the deuteragonist for the series, having said
               role in the Heavens Arena, Greed Island, and Chimera Ant arcs. He
               was the main protagonist of the 13th Hunter Chairman Election arc.
@@ -102,12 +102,12 @@ const Netero_info = () => {
               City arc.
             </p>
           </div>
-          <div className=" text-white flex sm:h-[400px] lg:relative">
-            <table class="table-auto m-7 w-full">
+          <div className=" text-white flex sm:h-[400px]">
+            <table class="table-auto lg:m-7 w-full">
               <thead className="bg-black">
                 <tr className="py-5 ">
                   <th
-                    className="py-2 text-center justify-center items-center lg:text-[2rem]"
+                    className="py-2 lg:text-center lg:justify-center lg:items-center lg:text-[2rem]"
                     style={{ fontFamily: "Fonstars" }}
                   >
                     Isaac netero
@@ -128,7 +128,7 @@ const Netero_info = () => {
               <thead className="bg-black">
                 <tr className="py-7 ">
                   <th
-                    className="py-3 text-center justify-center items-center text-[2rem]"
+                    className="py-3 text-center justify-center items-center lg:text-[2rem]"
                     style={{ fontFamily: "Fonstars" }}
                   >
                     Characteristics
@@ -159,7 +159,7 @@ const Netero_info = () => {
               <thead className="bg-black">
                 <tr className="">
                   <th
-                    className="py-3 text-[2rem]"
+                    className="py-3 lg:text-[2rem]"
                     style={{ fontFamily: "Fonstars" }}
                   >
                     Nen
@@ -187,17 +187,17 @@ const Netero_info = () => {
         <div className="col-span-1 text-center items-center flex justify-center h-[1240px] lg:bg-gradient-to-br sm:bg-transparent from-black "></div>
       </div>
       <div
-        className=" w-full h-[1000px] bg-no-repeat bg-cover bg-center "
+        className=" w-full lg:h-[1000px] bg-no-repeat bg-cover bg-center "
         style={{
           backgroundImage: `url(${require(`../../Assets/netero5.jpg`)})`,
         }}
       >
-        <div className="py-5 px-10 flex justify-center items-center text-white">
+        <div className="py-5 lg:px-10 flex justify-center items-center text-white">
           <table class="table-auto">
             <thead className="bg-black text-white">
               <tr className=" ">
                 <th
-                  className="py-2 text-center justify-center items-center text-[2rem]"
+                  className="py-2 text-center justify-center items-center lg:text-[2rem]"
                   style={{ fontFamily: "Fonstars" }}
                 >
                   Personality
@@ -207,14 +207,18 @@ const Netero_info = () => {
             <tbody className="bg-[#5f5f5f]">
               <tr className="border-black border-b-2">
                 <td className="font-bold py-3 pl-2">
-                  <img className="w-[50rem] h-[20rem]" src={netero2} alt="" />
+                  <img
+                    className="lg:w-[50rem] h-[20rem] rdm:w-[60rem]"
+                    src={netero2}
+                    alt=""
+                  />
                 </td>
                 <td className="py-3 pl-2 text-[1.2rem] font-bold">
                   Netero was energetic, playful to the point of being
-                  mischievous, and, sssat times, seemingly absentminded. Although
-                  he was capable of acting professionally when called to
-                  intervene as Chairman of the Hunter Association, on all other
-                  occasions, he proved himself to be so extravagant he was
+                  mischievous, and, sssat times, seemingly absentminded.
+                  Although he was capable of acting professionally when called
+                  to intervene as Chairman of the Hunter Association, on all
+                  other occasions, he proved himself to be so extravagant he was
                   sometimes called insane. There were clear discrepancies
                   between his words and his thoughts during the 287th Hunter
                   Exam. However, he was a true martial artist who was nothing
@@ -232,28 +236,28 @@ const Netero_info = () => {
                   lustful man in the Hunter Association, since many Hunters left
                   risqué magazines under his effigy as a tribute.[6]
                   Additionally, he gave a quick glance at Menchi's cleavage
-                  during the 287th Hunter Exam. <br /> <br /> Netero had dedicated his life to
-                  the martial arts and prayer, intended as a form of
-                  appreciation. He displayed a great deal of pride in his own
-                  abilities and had no respect for the weak. However, he was not
-                  arrogant, as he presented the possibility of Gon threatening
-                  him without saying the boy would stand no chance against him.
-                  His goal in life was to find a worthy adversary against whom
-                  he could fight with his all. His strength of mind and
-                  selflessness were beyond unwavering, and he did not hesitate
-                  to end his own life in a last attempt to kill Meruem. <br /> <br /> Despite
-                  his tendency to act as he pleased, Netero was not amoral. He
-                  banned expeditions to the Dark Continent as a response to
-                  cases of Hunters trying to imitate him and ultimately dying in
-                  the process,[12] and in spite of his fondness for challenges,
-                  he preferred to avoid fighting both Neferpitou[8] and
-                  Meruem,[13][note 2] hoping to end the conflict with the fewest
-                  casualties. Nonetheless, in certain occasions he prioritized
-                  results over sacrifices, as shown when he was willing to let
-                  as many as five million people die if that ensured the end of
-                  the Chimera Ant kingdom and saving humanity as a whole.
+                  during the 287th Hunter Exam. <br /> <br /> Netero had
+                  dedicated his life to the martial arts and prayer, intended as
+                  a form of appreciation. He displayed a great deal of pride in
+                  his own abilities and had no respect for the weak. However, he
+                  was not arrogant, as he presented the possibility of Gon
+                  threatening him without saying the boy would stand no chance
+                  against him. His goal in life was to find a worthy adversary
+                  against whom he could fight with his all. His strength of mind
+                  and selflessness were beyond unwavering, and he did not
+                  hesitate to end his own life in a last attempt to kill Meruem.{" "}
+                  <br /> <br /> Despite his tendency to act as he pleased,
+                  Netero was not amoral. He banned expeditions to the Dark
+                  Continent as a response to cases of Hunters trying to imitate
+                  him and ultimately dying in the process,[12] and in spite of
+                  his fondness for challenges, he preferred to avoid fighting
+                  both Neferpitou[8] and Meruem,[13][note 2] hoping to end the
+                  conflict with the fewest casualties. Nonetheless, in certain
+                  occasions he prioritized results over sacrifices, as shown
+                  when he was willing to let as many as five million people die
+                  if that ensured the end of the Chimera Ant kingdom and saving
+                  humanity as a whole.
                 </td>
-                
               </tr>
             </tbody>
           </table>

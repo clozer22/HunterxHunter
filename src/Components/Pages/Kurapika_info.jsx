@@ -47,7 +47,7 @@ const Kurapika_info = () => {
       </div>
       <div className="text-center  bg-black text-white">
         <h1
-          className="text-[4rem] font-extrabold"
+          className="lg:text-[4rem] rdm:text-[3rem] font-extrabold"
           style={{ fontFamily: "Fonstars" }}
         >
           Info
@@ -61,10 +61,10 @@ const Kurapika_info = () => {
       >
         <div
           id="section2"
-          className="col-span-1 items-center pl-5 lg:bg-gradient-to-bl to-black"
+          className="col-span-1 items-center lg:pl-5 lg:bg-gradient-to-bl to-black"
         >
           <h1
-            className="font-bold lg:text-[3rem] text-white text-center"
+            className="font-bold lg:text-[3rem] rdm:text-[2rem] rdm:mt-5 text-white text-center"
             style={{ fontFamily: "Fonstars" }}
           >
             Kurapika
@@ -91,11 +91,11 @@ const Kurapika_info = () => {
             </p>
           </div>
           <div className=" text-white flex">
-            <table class="table-auto m-7 w-full">
+            <table class="table-auto lg:m-7 w-full">
               <thead className="bg-black">
                 <tr className="py-5 ">
                   <th
-                    className="py-2 text-center justify-center items-center text-[2rem]"
+                    className="py-2 text-center justify-center items-center lg:text-[2rem]"
                     style={{ fontFamily: "Fonstars" }}
                   >
                     Kurapika
@@ -116,7 +116,7 @@ const Kurapika_info = () => {
               <thead className="bg-black">
                 <tr className="py-7 ">
                   <th
-                    className="py-3 text-center justify-center items-center text-[2rem]"
+                    className="py-3 text-center justify-center items-center lg:text-[2rem]"
                     style={{ fontFamily: "Fonstars" }}
                   >
                     Characteristics
@@ -149,7 +149,7 @@ const Kurapika_info = () => {
               <thead className="bg-black">
                 <tr className="">
                   <th
-                    className="py-3 text-[2rem]"
+                    className="py-3 lg:text-[2rem]"
                     style={{ fontFamily: "Fonstars" }}
                   >
                     Nen
@@ -184,12 +184,12 @@ const Kurapika_info = () => {
           backgroundImage: `url(${require(`../../Assets/kurapika_info2.jpg`)})`,
         }}
       >
-        <div className="py-5  px-10 flex justify-center items-center text-white">
+        <div className="py-5  lg:px-10 flex justify-center items-center text-white">
           <table class="table-auto w-[100rem]">
             <thead className="bg-black text-white">
               <tr className=" ">
                 <th
-                  className="py-2  text-center justify-center items-center text-[2rem]"
+                  className="py-2  text-center justify-center items-center lg:text-[2rem]"
                   style={{ fontFamily: "Fonstars" }}
                 >
                   Personality
