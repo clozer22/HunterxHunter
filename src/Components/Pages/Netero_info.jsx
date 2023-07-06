@@ -55,23 +55,20 @@ const Netero_info = () => {
         </h1>
       </div>
       <div
-        className=" lg:h-[1240px] sm:h-[1450px] rdm:h-[1200px]  lg:w-full  bg-no-repeat bg-cover bg-center "
+        className="grid lg:grid-cols-2 lg:h-[1240px] w-full bg-no-repeat bg-cover bg-center"
         style={{
-          backgroundImage: `url(${require(`../../Assets/neteroInfo2.png`)})`,
+          backgroundImage: `url(${require(`../../Assets/neteroInfo4.jpg`)})`,
         }}
       >
-        <div
-          id="section2"
-          className="col-span-1 items-center  lg:pl-6 h-[1240px] lg:bg-gradient-to-bl sm:absolute  from-black"
-        >
+        <div id="section2" className="col-span-1 items-center lg:ml-7">
           <h1
-            className="font-bold lg:text-[3rem] rdm:text-[2rem] text-white text-center"
+            className="font-bold lg:text-[3rem] rdm:text-[2rem] rdm:mt-5 text-white text-center"
             style={{ fontFamily: "Fonstars" }}
           >
-            Isaac netero
+            isaac netero
           </h1>
-          <div className="bg-black rounded text-white lg:mb-5 rdm:mb-2">
-            <p className="font-bold lg:text-center rdm:text-center text-[1rem]">
+          <div className="bg-black rounded text-white mb-5">
+            <p className="font-bold text-center lg:text-[1rem]">
               "When? When did I start waiting for my opponent to make the first
               move? When, indeed? It became a routine. The loser held out his
               hands in gratitude for the lesson and I graciously accepted
@@ -82,32 +79,35 @@ const Netero_info = () => {
               me to this point... that led me to you!!"
             </p>
             <p className="text-center" style={{ fontFamily: "Fonstars" }}>
-              — Isaac netero vs KING
+              — isaac netero
             </p>
           </div>
           <div>
-            <p className="text-white mb-7 lg:text-[.8rem] font-bold">
-              <span className="font-bold"> Isaac Netero(アイザック゠ネテロ, Aizakku Netero)</span> was the 12th Chairman of the
-              Hunter Association[6] and the Head of the Exam Commission.[7] In
-              his youth, he was extolled as the most powerful Nen user in the
-              world, and retained dreadful strength even in his old age.
+            <p className="text-white mb-7">
+              <span className="font-bold">
+                Isaac netero (アイザック゠ネテロ, Aizakku Netero)
+              </span>
+              was the 12th Chairman of the Hunter Association[6] and the Head of
+              the Exam Commission.[7] In his youth, he was extolled as the most
+              powerful Nen user in the world, and retained dreadful strength
+              even in his old age.
             </p>
           </div>
-          <div className=" text-white flex sm:h-[400px]">
+          <div className=" text-white flex">
             <table class="table-auto lg:m-7 w-full">
               <thead className="bg-black">
                 <tr className="py-5 ">
                   <th
-                    className="py-2 lg:text-center lg:justify-center lg:items-center lg:text-[2rem]"
+                    className="py-2 text-center justify-center items-center lg:text-[2rem]"
                     style={{ fontFamily: "Fonstars" }}
                   >
-                    Isaac netero
+                    isaac netero
                   </th>
                   <th className="py-2 text-center"></th>
                 </tr>
               </thead>
-              <tbody className="bg-[#5f5f5f] lg:text-[.8rem]">
-                <tr className="border-black border-b-2 ">
+              <tbody className="bg-[#5f5f5f]">
+                <tr className="border-black border-b-2">
                   <td className="font-bold py-3 pl-2">Kana</td>
                   <td className="py-3 pl-2">アイザック゠ネテロ</td>
                 </tr>
@@ -127,7 +127,7 @@ const Netero_info = () => {
                   <th className="py-3 text-center"></th>
                 </tr>
               </thead>
-              <tbody className="bg-[#5f5f5f] lg:text-[.8rem]">
+              <tbody className="bg-[#5f5f5f]">
                 <tr className="border-black border-b-2">
                   <td className="font-bold py-3 pl-2">Gender</td>
                   <td className="py-3 pl-2 flex">
@@ -137,14 +137,6 @@ const Netero_info = () => {
                 <tr className="border-black border-b-2">
                   <td className="font-bold py-3 pl-2">Age</td>
                   <td className="py-3 pl-2">110-120+</td>
-                </tr>
-                <tr className="border-black border-b-2">
-                  <td className="font-bold py-3 pl-2">Eye Color</td>
-                  <td className="py-3 pl-2">Gray (1999) Brown (2011)</td>
-                </tr>
-                <tr className="border-black border-b-2">
-                  <td className="font-bold py-3 pl-2">State</td>
-                  <td className="py-3 pl-2">Deceased</td>
                 </tr>
               </tbody>
               <thead className="bg-black">
@@ -158,7 +150,7 @@ const Netero_info = () => {
                   <th className="py-3 text-center"></th>
                 </tr>
               </thead>
-              <tbody className="bg-[#5f5f5f] lg:text-[.8rem]">
+              <tbody className="bg-[#5f5f5f]">
                 <tr className="border-black border-b-2">
                   <td className="font-bold py-3 pl-2">Type</td>
                   <td className="py-3 pl-2 flex">Enhancement</td>
@@ -166,16 +158,15 @@ const Netero_info = () => {
                 <tr className="border-black border-b-2">
                   <td className="font-bold py-3 pl-2">Abilities</td>
                   <td className="py-3 pl-2">
-                    100-Type Guanyin Bodhisattva First Hand,
-                    <br />
-                    Third Hand, Ninety-Ninth Hand, Zero Hand
+                    100-Type Guanyin Bodhisattva, First Hand, Third Hand,
+                    Ninety-Ninth Hand, Zero Hand
                   </td>
                 </tr>
               </tbody>
             </table>
           </div>
         </div>
-        <div className="col-span-1 text-center items-center flex justify-center h-[1240px] lg:bg-gradient-to-br sm:bg-transparent from-black "></div>
+        <div className="col-span-1 text-center items-center"></div>
       </div>
       <div
         className=" w-full lg:h-[1000px]  bg-no-repeat bg-cover bg-center "
@@ -197,7 +188,7 @@ const Netero_info = () => {
             </thead>
             <tbody className="bg-[#5f5f5f]">
               <tr className="border-black border-b-2">
-                <td className="font-bold py-3 pl-2">
+                <td className="font-bold py-3 pl-2 flex flex-col">
                   <img
                     className="lg:w-[50rem] lg:h-[20rem] rdm:h-[10rem] rdm:w-[50rem]"
                     src={netero2}

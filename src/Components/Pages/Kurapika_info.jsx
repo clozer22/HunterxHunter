@@ -198,8 +198,8 @@ const Kurapika_info = () => {
             </thead>
             <tbody className="bg-[#5f5f5f]">
               <tr className="border-black border-b-2">
-                <td className="font-bold py-3 pl-2">
-                  <img className="w-[50rem] lg:h-[20rem] rdm:h-[10rem]" src={kurapika1} alt="" />
+                <td className="font-bold py-3 pl-2 flex flex-col">
+                  <img className="w-[50rem] lg:h-[20rem] rdm:h-[9rem]" src={kurapika1} alt="" />
                 </td>
                 <td className="py-3 pl-2 text-[1.2rem] font-bold">
                   Kurapika is a cool and intelligent individual, possessing vast

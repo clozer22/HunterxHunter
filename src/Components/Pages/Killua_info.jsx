@@ -201,8 +201,12 @@ const Killua_info = () => {
             </thead>
             <tbody className="bg-[#5f5f5f]">
               <tr className="">
-                <td className="font-bold py-3 pl-2">
-                  <img className="w-[50rem] lg:h-[20rem] rdm:h-[10rem]" src={killua2} alt="" />
+                <td className="font-bold py-3 pl-2 flex flex-col">
+                  <img
+                    className="w-[50rem] lg:h-[20rem] rdm:h-[10rem]"
+                    src={killua2}
+                    alt=""
+                  />
                 </td>
                 <td className="py-3 pl-2 text-[1.2rem] font-bold">
                   Initially, Killua is introduced as a character who appears
@@ -236,8 +240,12 @@ const Killua_info = () => {
                 </td>
               </tr>
               <tr>
-                <td className="font-bold py-3 pl-2">
-                  <img className="lg:w-[50rem] lg:h-[20rem] rdm:h-[10rem]" src={killua3} alt="" />
+                <td className="font-bold py-3 pl-2 flex flex-col">
+                  <img
+                    className="lg:w-[50rem] lg:h-[20rem] rdm:h-[10rem]"
+                    src={killua3}
+                    alt=""
+                  />
                 </td>
                 <td className="py-3 pl-2 text-[1.2rem] font-bold">
                   However, his ruthlessness and aptitude in killing show the
@@ -254,8 +262,12 @@ const Killua_info = () => {
                 </td>
               </tr>
               <tr>
-                <td className="font-bold py-3 pl-2">
-                  <img className="w-[50rem] lg:h-[20rem] rdm:h-[10rem]" src={killua4} alt="" />
+                <td className="font-bold py-3 pl-2 flex flex-col">
+                  <img
+                    className="w-[50rem] lg:h-[20rem] rdm:h-[10rem]"
+                    src={killua4}
+                    alt=""
+                  />
                 </td>
                 <td className="py-3 pl-2 text-[1.2rem] font-bold">
                   Until recently, Killua's greatest flaw was his fear of those
@@ -285,20 +297,25 @@ const Killua_info = () => {
                 </td>
               </tr>
               <tr>
-                <td className="font-bold py-3 pl-2">
-                  <img className="w-[50rem] lg:h-[20rem] rdm:h-[10rem]" src={killua5} alt="" />
+                <td className="font-bold py-3 pl-2 flex flex-col">
+                  <img
+                    className="w-[50rem] lg:h-[20rem] rdm:h-[10rem]"
+                    src={killua5}
+                    alt=""
+                  />
                 </td>
                 <td className="py-3 pl-2 text-[1.2rem] font-bold">
                   During the events of Greed Island, Killua has shown to be
                   highly susceptible to gambling. Going as far as to be willing
                   to gamble with his life to get a big reward in the slot
                   machine and seem to show heavy gambling rush in his eyes
-                  causing Biscuit to neck chop him to make him stop. <br /> <br /> A stark
-                  contrast to his best friend Gon, Killua is highly mature in
-                  both thinking and emotion in which he can keep his anger in
-                  check and maintain rationality better than Gon even when
-                  facing a terrifying experience like the death of Kite, while
-                  Gon gives in to his rage and loses his logical thinking.
+                  causing Biscuit to neck chop him to make him stop. <br />{" "}
+                  <br /> A stark contrast to his best friend Gon, Killua is
+                  highly mature in both thinking and emotion in which he can
+                  keep his anger in check and maintain rationality better than
+                  Gon even when facing a terrifying experience like the death of
+                  Kite, while Gon gives in to his rage and loses his logical
+                  thinking.
                 </td>
               </tr>
             </tbody>
