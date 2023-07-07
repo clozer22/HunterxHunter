@@ -25,14 +25,14 @@ const Characters = () => {
         style={{ fontFamily: "Fonstars" }}
       >
         <p className="text-white text-[1.5rem]"></p>
-        <h1 className="lg:text-5xl sm:text-7xl xsm:text-[1.5rem] rdm:text-[1.5rem] xsm:text-center font-extrabold text-[#f8faff] mb-5">
+        <h1 className="lg:text-5xl sm:text-[2.5rem] xsm:text-[1.5rem] rdm:text-[1.5rem] xsm:text-center font-extrabold text-[#f8faff] mb-5">
           <span className="text-white">Hunter</span>{" "}
           <span className="text-[#3cb62b]">x</span>{" "}
           <span className="text-[#F24B28]">
             Characters
           </span>{" "}
         </h1>
-        <h2 className="lg:text-4xl sm:text-5xl xsm:text-[1.3rem] font-bold text-[#8892b0]">
+        <h2 className="lg:text-4xl sm:text-[2.3rem] xsm:text-[1.3rem] font-bold text-[#8892b0]">
           Nen Type:{" "}
           <Typed
             className=""

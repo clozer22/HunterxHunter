@@ -17,10 +17,10 @@ const Navbar = () => {
     element.scrollIntoView({ behavior: "smooth" });
   };
   return (
-    <div className="fixed z-[100] lg:w-full xsm:w-[450px] rdm:w-[380px] h-[80px] flex justify-between items-center lg:px-4 bg-transparent text-white">
+    <div className="fixed z-[100] lg:w-full xsm:w-full rdm:w-full sm:w-full md:w-full h-[80px] flex justify-between items-center lg:px-4 bg-transparent text-white">
       <div className="">
         <img
-          className="cursor-pointer lg:w-[200px] xsm:w-[120px] rdm:w-[150px]"
+          className="cursor-pointer lg:w-[200px] xsm:w-[150px] rdm:w-[150px] md:w-[200px]"
           src={logo}
           alt="Logo Image"
         />
@@ -45,7 +45,7 @@ const Navbar = () => {
       {/* Hamburger Menu */}
       <div onClick={handleClick} className="md:hidden z-10">
         {!nav ? (
-          <FaBars className="xsm:mr-111 rdm:mr-11" />
+          <FaBars className="xsm:mr-11 rdm:mr-11" />
         ) : (
           <FaTimes className="xsm:mr-11 rdm:mr-11" />
         )}
@@ -56,11 +56,11 @@ const Navbar = () => {
         className={
           !nav
             ? "hidden"
-            : "absolute lg:top-0 xsm:top-0 rdm:top-0 rdm:w-full left-0 lg:w-full xsm:w-full lg:h-screen xsm:h-[500px] bg-black flex flex-col xsm:justify-center xsm:items-center rdm:justify-center rdm:items-center"
+            : "absolute lg:top-0 xsm:top-0 rdm:top-0 rdm:w-full left-0 lg:w-full xsm:w-full md:w-full sm:w-full lg:h-screen xsm:h-[500px] bg-black flex flex-col xsm:justify-center xsm:items-center rdm:justify-center rdm:items-center"
         }
       >
         <img
-          className="cursor-pointer xsm:w-[200px] rdm:w-[300px]"
+          className="cursor-pointer xsm:w-[200px] rdm:w-[300px] "
           src={logo}
           alt="Logo Image"
         />
