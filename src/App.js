@@ -15,6 +15,8 @@ import Killua_info from "./Components/Pages/Killua_info";
 import Netero_info from "./Components/Pages/Netero_info";
 import Gon_info from "./Components/Pages/Gon_info";
 import Kurapika_info from "./Components/Pages/Kurapika_info";
+import Leorio_info from "./Components/Pages/Leorio_info";
+import { Hisoka_info } from "./Components/Pages/Hisoka_info";
 
  
 
@@ -32,6 +34,8 @@ function App() {
           <Route path="/netero_info" element={<Netero_info />} />
           <Route path="/gon_info" element={<Gon_info />} />
           <Route path="/kurapika_info" element={<Kurapika_info />} />
+          <Route path="/leorio_info" element={<Leorio_info />} />
+          <Route path="/hisoka_info" element={<Hisoka_info />} />
 
         </Routes>
       </div>

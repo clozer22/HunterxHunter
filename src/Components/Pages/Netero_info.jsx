@@ -55,7 +55,7 @@ const Netero_info = () => {
         </h1>
       </div>
       <div
-        className="grid lg:grid-cols-2 lg:h-[1240px] w-full bg-no-repeat bg-cover bg-center"
+        className="grid lg:grid-cols-2 lg:h-[1240px] rdm:h-[1200px] w-full bg-no-repeat bg-cover bg-center"
         style={{
           backgroundImage: `url(${require(`../../Assets/neteroInfo4.jpg`)})`,
         }}

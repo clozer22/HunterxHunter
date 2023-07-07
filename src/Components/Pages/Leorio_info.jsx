@@ -5,8 +5,9 @@ import killua from "../../Assets/killua.png";
 import { BsGenderMale } from "react-icons/bs";
 import gon from "../../Assets/gonInfo3.png";
 import kurapika1 from "../../Assets/kurapika_info3.jpg";
+import leorio from "../../Assets/leorio_info2.png";
 
-const Kurapika_info = () => {
+const Leorio_info = () => {
   const handleScroll = () => {
     const element = document.getElementById("section2");
     element.scrollIntoView({ behavior: "smooth" });
@@ -16,7 +17,7 @@ const Kurapika_info = () => {
       name="home"
       className="w-full h-[550px]  bg-black bg-no-repeat  sm:grid-cols-1 bg-cover bg-center bg-gradient-to-br from-black"
       style={{
-        backgroundImage: `url(${require(`../../Assets/kurapika_info.jpg`)})`,
+        backgroundImage: `url(${require(`../../Assets/leorio_info.png`)})`,
       }}
     >
       {/* Container */}
@@ -25,13 +26,16 @@ const Kurapika_info = () => {
         style={{ fontFamily: "Fonstars" }}
       >
         <p className="text-white text-[1.5rem]"></p>
-        <h1 className="text-4xl sm:text-7xl font-extrabold text-[#f8faff]">
-          Kurapika
+        <h1 className="lg:text-4xl sm:text-7xl rdm:text-[2rem] rdm:text-center font-extrabold text-[#f8faff]">
+          Leorio Paradinight
         </h1>
         <h2 className="text-4xl sm:text-5xl font-bold text-[#8892b0]"></h2>
-        <p className="text-[#b7c0db] py-4 max-w-[700px] text-center">
-          "I do not fear death. What I fear is that my rage will one day fade
-          away."
+        <p className="text-[#b7c0db] py-4 max-w-[700px] lg:text-[1rem] text-center rdm:text-[.7rem]">
+          "I'm a simple guy. Figured I'd become a doctor... so I could cure some
+          kid with the same disease, tell his parents they owed me nothing!
+          Me... A doctor! Now there's a joke!! Do you know how much it costs to
+          even try to become a doctor? The mind boggles!! It's always about
+          money! Always!! That's why I want it!"
         </p>
         <div>
           <button
@@ -56,7 +60,7 @@ const Kurapika_info = () => {
       <div
         className="grid lg:grid-cols-2 lg:h-[1240px] rdm:h-[1300px] w-full bg-no-repeat bg-cover bg-center"
         style={{
-          backgroundImage: `url(${require(`../../Assets/kurapika_info2.jpg`)})`,
+          backgroundImage: `url(${require(`../../Assets/leorio_info.png`)})`,
         }}
       >
         <div
@@ -67,7 +71,7 @@ const Kurapika_info = () => {
             className="font-bold lg:text-[3rem] rdm:text-[2rem] rdm:mt-5 text-white text-center"
             style={{ fontFamily: "Fonstars" }}
           >
-            Kurapika
+            Leorio
           </h1>
           <div className="bg-black rounded text-white mb-5">
             <p className="font-bold text-center lg:text-[1rem]">
@@ -75,12 +79,15 @@ const Kurapika_info = () => {
               fade away."
             </p>
             <p className="text-center" style={{ fontFamily: "Fonstars" }}>
-              — kurapika
+              — Leorio Paradinight
             </p>
           </div>
           <div>
             <p className="text-white mb-7">
-              <span className="font-bold"> Kurapika (クラピカ, Kurapika) </span>
+              <span className="font-bold">
+                {" "}
+                Leorio Paradinight (クラピカ, Kurapika){" "}
+              </span>
               is the last survivor of the Kurta Clan. He is a Blacklist Hunter
               and current leader of the organization founded by Light Nostrade.
               He is a member of the Zodiacs with the codename "Rat" (子ね, Ne).
@@ -98,7 +105,7 @@ const Kurapika_info = () => {
                     className="py-2 text-center justify-center items-center lg:text-[2rem]"
                     style={{ fontFamily: "Fonstars" }}
                   >
-                    Kurapika
+                    Leorio
                   </th>
                   <th className="py-2 text-center"></th>
                 </tr>
@@ -110,7 +117,7 @@ const Kurapika_info = () => {
                 </tr>
                 <tr>
                   <td className="font-bold py-3 pl-2">Rōmaji</td>
-                  <td className="py-3 pl-2">Kurapika</td>
+                  <td className="py-3 pl-2">Leorio Paradinight</td>
                 </tr>
               </tbody>
               <thead className="bg-black">
@@ -181,7 +188,7 @@ const Kurapika_info = () => {
       <div
         className=" w-full bg-no-repeat bg-cover bg-center "
         style={{
-          backgroundImage: `url(${require(`../../Assets/kurapika_info2.jpg`)})`,
+          backgroundImage: `url(${require(`../../Assets/leorio_info.png`)})`,
         }}
       >
         <div className="py-5  lg:px-10 flex justify-center items-center text-white">
@@ -199,47 +206,44 @@ const Kurapika_info = () => {
             <tbody className="bg-[#5f5f5f]">
               <tr className="border-black border-b-2">
                 <td className="font-bold py-3 pl-2 flex flex-col">
-                  <img className="w-[50rem] lg:h-[20rem] rdm:h-[9rem]" src={kurapika1} alt="" />
+                  <img
+                    className="w-[50rem] lg:h-[20rem] rdm:h-[9rem]"
+                    src={leorio}
+                    alt=""
+                  />
                 </td>
                 <td className="py-3 pl-2 text-[1.2rem] font-bold">
-                  Kurapika is a cool and intelligent individual, possessing vast
-                  knowledge. He is reticent; not one to open up to people easily
-                  and quite judgmental. His distance from others initially keeps
-                  him level-headed and moralistic, but his heart has been
-                  poisoned with sadness and hatred. Having been traumatized from
-                  losing everyone he loved at the age of twelve, Kurapika closes
-                  his heart to new people and remains introverted as to stay
-                  focused on his goal. However, Kurapika can be kind and
-                  affectionate, smiling when those friends are happy. Though
-                  Kurapika outwardly states that he desires to become a
-                  Blacklist Hunter and his ultimate goal is to capture the band
-                  of thieves that massacred his family, he is willing to
-                  compromise his personal morality and delve into the squalid
-                  side of society in order to achieve his goal. He is prone to
-                  fits of uncontrollable anger should the memory of his clan be
-                  insulted in any way.<br /> <br /> After becoming a professional Hunter,
-                  Kurapika starts upon a self-destructive path. His anger leads
-                  him to commit villainous acts of wrath as catharsis for his
-                  pain. Kurapika's reserved demeanor makes him very ruthless and
-                  unreasonable at times, but his friends are the only ones able
-                  to slightly settle his seething enough for him to think
-                  rationally. He slowly transitioned from considering his
-                  friendships to be a weakness hindering him from succeeding in
-                  his aims to appreciating their value, and he was willing to
-                  put his revenge on the Phantom Troupe on hold for his friends'
-                  well-being. He even questioned the legitimacy of his quest
-                  after experiencing the deep ties that bind the Spiders
-                  together, particularly Pakunoda's loyalty, although it
-                  ultimately did not deter him.<br /> <br /> Although he made himself
-                  unavailable for a period, the people dear to him became part
-                  of his drives, leading him to search for more power in order
-                  not to lose anyone else. Upon nearly completing his goal of
-                  retrieving the eyes of his brethren, he began to feel a deep
-                  sense of loss, believing to have no one and nowhere to return
-                  to. <br /> <br /> As a child, his personality was more akin to Gon's where
-                  he sought out adventure and had an impulsive nature. Kurapika
-                  was still protective of his friends, however, going as far as
-                  to beat a man for his derogatory comments against one.
+                  Leorio is initially introduced as a very selfish narcissist
+                  who places great emphasis on material wealth. Despite his
+                  assertions that he is only after money, he eventually reveals
+                  to Kurapika that his dream is to one day become a doctor in
+                  order to help the poor. He believes that all things in the
+                  world (lives, dreams, etc.) can be bought and that becoming a
+                  Hunter will provide him with the necessary funds for his
+                  medical education. Due to his first spat with Kurapika, as
+                  well as the test on the way to the navigator's cabin, it seems
+                  that he has a sensitivity for those who do not take him
+                  seriously or treat him with disrespect. His real priorities
+                  seem to be friends first, then his dream of becoming a great
+                  doctor, with everything else afterward.
+                  <br /> <br />
+                  Leorio is not one to balk and retreat when faced with
+                  overwhelming odds in battle. A loyal, trustworthy ally who
+                  greatly values the ties of friendship, he acts like the 'big
+                  brother' of the group. He often provides comic relief; Killua
+                  sometimes ridicules him for his comparatively older age,
+                  although he swears that his appearance is that of a mere
+                  teenager. His impulsive and brash nature has sometimes caused
+                  more trouble for the people around him. Another flair he has
+                  is his ability to 'straight-talk' through many situations at
+                  hand. It could be seen that his closest relationship in the
+                  group is with Kurapika because they have spent the most time
+                  with each other.
+                  <br /> <br /> Although he made himself unavailable for a
+                  period, the peopAt the tail end of the Yorknew City arc,
+                  Melody claims that he has "the nicest heartbeat in the city",
+                  stating that "it's warm and gentle" and that he would make for
+                  a better doctor than a Hunter.
                 </td>
               </tr>
             </tbody>
@@ -250,4 +254,4 @@ const Kurapika_info = () => {
   );
 };
 
-export default Kurapika_info;
+export default Leorio_info;

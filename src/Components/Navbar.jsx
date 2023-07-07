@@ -17,7 +17,7 @@ const Navbar = () => {
     element.scrollIntoView({ behavior: "smooth" });
   };
   return (
-    <div className="fixed z-[100] lg:w-full xsm:w-[450px] rdm:w-[400px] h-[80px] flex justify-between items-center lg:px-4 bg-transparent text-white">
+    <div className="fixed z-[100] lg:w-full xsm:w-[450px] rdm:w-[380px] h-[80px] flex justify-between items-center lg:px-4 bg-transparent text-white">
       <div className="">
         <img
           className="cursor-pointer lg:w-[200px] xsm:w-[120px] rdm:w-[150px]"

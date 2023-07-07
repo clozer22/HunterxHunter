@@ -57,7 +57,7 @@ const Killua_info = () => {
         </h1>
       </div>
       <div
-        className="grid lg:grid-cols-2 lg:h-[1240px] w-full bg-no-repeat bg-cover bg-center"
+        className="grid lg:grid-cols-2 lg:h-[1240px] rdm:h-[1250px] w-full bg-no-repeat bg-cover bg-center"
         style={{
           backgroundImage: `url(${require(`../../Assets/KilluaInfo5.png`)})`,
         }}

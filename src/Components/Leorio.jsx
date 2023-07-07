@@ -1,6 +1,7 @@
 import React from 'react'
 import { HiArrowNarrowRight } from "react-icons/hi";
 import leorio from '../Assets/leorio3.png'
+import { Link } from 'react-router-dom';
 const Leorio = () => {
   return (
     <div
@@ -13,7 +14,7 @@ const Leorio = () => {
       </h1>
       <div className="">
         <button className="text-white group border-2 lg:px-6 lg:py-3 lg:my-2 xsm:px-5 xsm:py-2 rdm:px-5 rdm:py-2 flex items-center bg-[#F24B28]  hover:bg-[#F24B28] hover:border-pink-600">
-          Read more
+        <Link to="/leorio_info">Read more</Link>
           <span className="group-hover:rotate-90 duration-300">
             <HiArrowNarrowRight className="ml-3" />
           </span>
