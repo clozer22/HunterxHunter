@@ -4,6 +4,7 @@ import Typed from "react-typed";
 import hxh from "../Assets/hxh.png";
 import "../fonts/fonts.css";
 import About from "./About";
+import Fade from "react-reveal/Fade";
 
 const Home = () => {
   const handleScroll = () => {
@@ -53,11 +54,13 @@ const Home = () => {
           </div>
         </div>
         <div className="lg:col-span-1 sm:flex sm:justify-center sm:items-center xsm:items-center rdm:items-center rdm:flex xsm:justify-center rdm:justify-center xsm:flex ">
-          <img
-            src={hxh}
-            alt=""
-            className="lg:w-[30rem] hover:scale-105 duration-300 sm:w-[30rem] xsm:w-[20rem] rdm:w-[20rem]"
-          />
+          <Fade top>
+            <img
+              src={hxh}
+              alt=""
+              className="animate-bounce lg:w-[30rem] hover:scale-105 duration-700 sm:w-[30rem] xsm:w-[20rem] rdm:w-[20rem]"
+            />
+          </Fade>
         </div>
       </div>
       <About />

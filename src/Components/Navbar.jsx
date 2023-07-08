@@ -8,6 +8,8 @@ import Typed from "react-typed";
 import hxh from "../Assets/hxh.png";
 import Home from "./Home";
 import { NavLink } from "react-router-dom";
+import Fade from "react-reveal/Fade";
+
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
@@ -17,7 +19,9 @@ const Navbar = () => {
     element.scrollIntoView({ behavior: "smooth" });
   };
   return (
+  
     <div className="fixed z-[100] lg:w-full xsm:w-full rdm:w-full sm:w-full md:w-full h-[80px] flex justify-between items-center lg:px-4 bg-transparent text-white">
+      <Fade top>
       <div className="">
         <img
           className="cursor-pointer lg:w-[200px] xsm:w-[150px] rdm:w-[150px] md:w-[200px]"
@@ -41,6 +45,7 @@ const Navbar = () => {
         <li className="hover:border-b-2 border-b-[#9A208C]">Arc</li>
         <li className="hover:border-b-2 border-b-[#9A208C]">About</li>
       </ul>
+      </Fade>
 
       {/* Hamburger Menu */}
       <div onClick={handleClick} className="md:hidden z-10">

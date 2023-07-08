@@ -11,6 +11,14 @@ import Killua from "./Killua";
 import "../fonts/fonts.css";
 import Skills from "./Skills";
 import Netero from "./Netero";
+import Ging from "./Ging";
+import Chrollo from "./Chrollo";
+import Uvo from "./Uvo";
+import Feitan from "./Feitan";
+import Nobunaga from "./Nobunaga";
+import Machi from "./Machi";
+import Phinks from "./Phinks";
+import Fade from "react-reveal/Fade";
 
 const Characters = () => {
   return (
@@ -20,6 +28,7 @@ const Characters = () => {
       style={{ backgroundImage: `url(${require(`../Assets/phantom.jpg`)})` }}
     >
       {/* Container */}
+      <Fade top>
       <div
         className="w-full  flex flex-col justify-center items-center h-full bg-gradient-to-b from-black"
         style={{ fontFamily: "Fonstars" }}
@@ -28,9 +37,7 @@ const Characters = () => {
         <h1 className="lg:text-5xl sm:text-[2.5rem] xsm:text-[1.5rem] rdm:text-[1.5rem] xsm:text-center font-extrabold text-[#f8faff] mb-5">
           <span className="text-white">Hunter</span>{" "}
           <span className="text-[#3cb62b]">x</span>{" "}
-          <span className="text-[#F24B28]">
-            Characters
-          </span>{" "}
+          <span className="text-[#F24B28]">Characters</span>{" "}
         </h1>
         <h2 className="lg:text-4xl sm:text-[2.3rem] xsm:text-[1.3rem] font-bold text-[#8892b0]">
           Nen Type:{" "}
@@ -59,6 +66,7 @@ const Characters = () => {
           </button>
         </div>
       </div>
+      </Fade>
       <div className="text-center mt-11 mb-10 xsm:mt-5 xsm:mb-5 rdm:mt-3 rdm:mb-3 bg-black text-white">
         <h1
           className="lg:text-[4rem] xsm:text-[2rem] rdm:text-[2rem] font-extrabold"
@@ -67,12 +75,21 @@ const Characters = () => {
           CHARACTERS
         </h1>
       </div>
-      <Netero />
-      <Killua />
-      <Gon />
-      <Kurapika />
-      <Leorio />
-      <Skills />
+      <Fade right>
+        <Netero />
+        <Killua />
+        <Gon />
+        <Kurapika />
+        <Leorio />
+        <Skills />
+        <Ging />
+        <Chrollo />
+        <Uvo />
+        <Feitan />
+        <Nobunaga />
+        <Machi />
+        <Phinks />
+      </Fade>
     </div>
   );
 };

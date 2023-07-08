@@ -17,6 +17,7 @@ import Gon_info from "./Components/Pages/Gon_info";
 import Kurapika_info from "./Components/Pages/Kurapika_info";
 import Leorio_info from "./Components/Pages/Leorio_info";
 import { Hisoka_info } from "./Components/Pages/Hisoka_info";
+import Ging_info from "./Components/Pages/Ging_info";
 
  
 
@@ -36,6 +37,7 @@ function App() {
           <Route path="/kurapika_info" element={<Kurapika_info />} />
           <Route path="/leorio_info" element={<Leorio_info />} />
           <Route path="/hisoka_info" element={<Hisoka_info />} />
+          <Route path="/ging_info" element={<Ging_info />} />
 
         </Routes>
       </div>
