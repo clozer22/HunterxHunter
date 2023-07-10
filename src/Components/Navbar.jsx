@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
@@ -18,10 +18,32 @@ const Navbar = () => {
     const element = document.getElementById("about1");
     element.scrollIntoView({ behavior: "smooth" });
   };
+
+  const [prevScrollPos, setPrevScrollPos] = useState(0);
+  const [show, setShow] = useState(true);
+  const controlNavbar = () => {
+    const currentScrollPos = window.scrollY;
+    if (currentScrollPos > prevScrollPos) {
+      setShow(false); // Scrolling down
+    } else {
+      setShow(true); // Scrolling up
+    }
+    setPrevScrollPos(currentScrollPos);
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", controlNavbar);
+    return () => {
+      window.removeEventListener("remove", controlNavbar);
+    };
+  }, [prevScrollPos]);
+
   return (
-  
-    <div className="fixed z-[100] lg:w-full xsm:w-full rdm:w-full sm:w-full md:w-full h-[80px] flex justify-between items-center lg:px-4 bg-transparent text-white">
-      <Fade top>
+    <div
+      className={`nav fixed top-0 z-[100] lg:w-full xsm:w-full rdm:w-full sm:w-full md:w-full h-[80px] flex justify-between items-center lg:px-4 bg-transparent text-white ${
+        show ? "fadeIn" : "fadeOut"
+      }`}
+    >
       <div className="">
         <img
           className="cursor-pointer lg:w-[200px] xsm:w-[150px] rdm:w-[150px] md:w-[200px]"
@@ -45,7 +67,6 @@ const Navbar = () => {
         <li className="hover:border-b-2 border-b-[#9A208C]">Arc</li>
         <li className="hover:border-b-2 border-b-[#9A208C]">About</li>
       </ul>
-      </Fade>
 
       {/* Hamburger Menu */}
       <div onClick={handleClick} className="md:hidden z-10">

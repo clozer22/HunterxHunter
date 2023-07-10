@@ -13,5 +13,18 @@
         @apply cursor-pointer
         
     }
+
 }
+.nav {
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .fadeIn {
+    opacity: 1;
+  }
+  
+  .fadeOut {
+    opacity: 0;
+  }
+  
 
