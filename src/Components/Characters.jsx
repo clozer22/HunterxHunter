@@ -20,6 +20,7 @@ import Machi from "./Machi";
 import Phinks from "./Phinks";
 import Fade from "react-reveal/Fade";
 import Zoom from "react-reveal/Zoom";
+import Shalnark from "./Shalnark";
 
 const Characters = () => {
   const [searchInput, setSearchInput] = useState("");
@@ -60,7 +61,7 @@ const Characters = () => {
             Nen Type:{" "}
             <Typed
               className=""
-              strings={["ENHANCER", "TRANSMUTER", "EMITTER", "CONJURER"]}
+              strings={["ENHANCER", "TRANSMUTER", "EMITTER", "CONJURER", "SPECIALIST"]}
               typeSpeed={120}
               backSpeed={140}
               loop
@@ -110,6 +111,7 @@ const Characters = () => {
             <Nobunaga />
             <Machi />
             <Phinks />
+            <Shalnark />
             </Fade>
           </>
         ) : (
@@ -119,7 +121,7 @@ const Characters = () => {
             {searchInput.toLowerCase() === "gon" && <Gon />}
             {searchInput.toLowerCase() === "kurapika" && <Kurapika />}
             {searchInput.toLowerCase() === "leorio" && <Leorio />}
-            {searchInput.toLowerCase() === "skills" && <Skills />}
+            {searchInput.toLowerCase() === "hisoka" && <Skills />}
             {searchInput.toLowerCase() === "ging" && <Ging />}
             {searchInput.toLowerCase() === "chrollo" && <Chrollo />}
             {searchInput.toLowerCase() === "uvo" && <Uvo />}
@@ -127,6 +129,8 @@ const Characters = () => {
             {searchInput.toLowerCase() === "nobunaga" && <Nobunaga />}
             {searchInput.toLowerCase() === "machi" && <Machi />}
             {searchInput.toLowerCase() === "phinks" && <Phinks />}
+            {searchInput.toLowerCase() === "shalnark" && <Shalnark />}
+
           </>
         )}
     </div>

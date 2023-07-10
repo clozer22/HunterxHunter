@@ -12,7 +12,7 @@ const Feitan = () => {
         className="col-span-1 flex justify-center text-center items-center flex-col lg:bg-gradient-to-br from-black"
         style={{ fontFamily: "Fonstars" }}
       >
-        <h1 className="lg:text-[3.5rem] xsm:text-[3rem] rdm:text-[2.5rem] font-bold text-white sm:mt-8">
+        <h1 className="lg:text-[3.5rem] xsm:text-[3rem] rdm:text-[2.5rem] rdm:text-black xsm:text-black font-bold lg:text-white sm:mt-8">
           Feitan Portor
         </h1>
         <div className="">

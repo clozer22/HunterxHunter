@@ -1,6 +1,6 @@
 import React from 'react'
 import { HiArrowNarrowRight } from "react-icons/hi";
-import chrollo from "../Assets/chrollo3.png";
+import shalnark from "../Assets/shalnark2.png";
 import { Link } from "react-router-dom";
 const Shalnark = () => {
   return (
@@ -12,8 +12,8 @@ const Shalnark = () => {
         className="col-span-1 flex justify-center text-center items-center flex-col lg:bg-gradient-to-br from-black"
         style={{ fontFamily: "Fonstars" }}
       >
-        <h1 className="lg:text-[3.5rem] xsm:text-[3rem] rdm:text-[2.5rem] font-bold text-white sm:mt-8">
-          Chrollo Lucilfer
+        <h1 className="lg:text-[3.5rem] xsm:text-[3rem] rdm:text-[2.5rem] font-bold lg:text-white rdm:text-black xsm:text-black sm:mt-8">
+          Shalnark
         </h1>
         <div className="">
           <button className="text-white group border-2 lg:px-6 lg:py-3 lg:my-2 xsm:px-5 xsm:py-2 xsm:my-2 rdm:px-5 rdm:py-2 flex items-center bg-[#F24B28]  hover:bg-[#F24B28] hover:border-pink-600">
@@ -26,7 +26,7 @@ const Shalnark = () => {
       </div>
       <div className="col-span-1 flex justify-center text-center items-center overflow-hidden lg:bg-gradient-to-bl from-black">
         <img
-          src={chrollo}
+          src={shalnark}
           alt=""
           className="lg:h-[35rem] xsm:h-[20rem] rdm:h-[20rem]  bg-transparent drop-shadow-lg relative hover:scale-105 duration-300"
         />

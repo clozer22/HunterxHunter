@@ -12,7 +12,7 @@ const Phinks = () => {
       className="col-span-1 flex justify-center text-center items-center flex-col lg:bg-gradient-to-br from-black"
       style={{ fontFamily: "Fonstars" }}
     >
-      <h1 className="lg:text-[3.5rem] xsm:text-[3rem] rdm:text-[2.5rem] font-bold text-white sm:mt-8">
+      <h1 className="lg:text-[3.5rem] xsm:text-[3rem] rdm:text-[2.5rem] font-bold lg:text-white rdm:text-black xsm:text-black sm:mt-8">
         Phinks Magcub
       </h1>
       <div className="">
