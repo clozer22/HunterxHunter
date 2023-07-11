@@ -61,7 +61,13 @@ const Characters = () => {
             Nen Type:{" "}
             <Typed
               className=""
-              strings={["ENHANCER", "TRANSMUTER", "EMITTER", "CONJURER", "SPECIALIST"]}
+              strings={[
+                "ENHANCER",
+                "TRANSMUTER",
+                "EMITTER",
+                "CONJURER",
+                "SPECIALIST",
+              ]}
               typeSpeed={120}
               backSpeed={140}
               loop
@@ -95,9 +101,9 @@ const Characters = () => {
           CHARACTERS
         </h1>
       </div>
-        {searchInput === "" || searchInput === null ? (
-          <>
-            <Fade>
+      {searchInput === "" || searchInput === null ? (
+        <>
+          <Fade>
             <Netero />
             <Killua />
             <Gon />
@@ -112,27 +118,47 @@ const Characters = () => {
             <Machi />
             <Phinks />
             <Shalnark />
-            </Fade>
-          </>
-        ) : (
-          <>
-            {searchInput.toLowerCase() === "netero" && <Netero />}
-            {searchInput.toLowerCase() === "killua" && <Killua />}
-            {searchInput.toLowerCase() === "gon" && <Gon />}
-            {searchInput.toLowerCase() === "kurapika" && <Kurapika />}
-            {searchInput.toLowerCase() === "leorio" && <Leorio />}
-            {searchInput.toLowerCase() === "hisoka" && <Skills />}
-            {searchInput.toLowerCase() === "ging" && <Ging />}
-            {searchInput.toLowerCase() === "chrollo" && <Chrollo />}
-            {searchInput.toLowerCase() === "uvo" && <Uvo />}
-            {searchInput.toLowerCase() === "feitan" && <Feitan />}
-            {searchInput.toLowerCase() === "nobunaga" && <Nobunaga />}
-            {searchInput.toLowerCase() === "machi" && <Machi />}
-            {searchInput.toLowerCase() === "phinks" && <Phinks />}
-            {searchInput.toLowerCase() === "shalnark" && <Shalnark />}
-
-          </>
-        )}
+          </Fade>
+        </>
+      ) : (
+        <>
+          {searchInput.toLowerCase() === "netero" && <Netero />}
+          {searchInput.toLowerCase() === "killua" && <Killua />}
+          {searchInput.toLowerCase() === "gon" && <Gon />}
+          {searchInput.toLowerCase() === "kurapika" && <Kurapika />}
+          {searchInput.toLowerCase() === "leorio" && <Leorio />}
+          {searchInput.toLowerCase() === "hisoka" && <Skills />}
+          {searchInput.toLowerCase() === "ging" && <Ging />}
+          {searchInput.toLowerCase() === "chrollo" && <Chrollo />}
+          {searchInput.toLowerCase() === "uvo" && <Uvo />}
+          {searchInput.toLowerCase() === "feitan" && <Feitan />}
+          {searchInput.toLowerCase() === "nobunaga" && <Nobunaga />}
+          {searchInput.toLowerCase() === "machi" && <Machi />}
+          {searchInput.toLowerCase() === "phinks" && <Phinks />}
+          {searchInput.toLowerCase() === "shalnark" && <Shalnark />}
+          {searchInput.toLowerCase() !== "netero" &&
+            searchInput.toLowerCase() !== "killua" &&
+            searchInput.toLowerCase() !== "gon" &&
+            searchInput.toLowerCase() !== "kurapika" &&
+            searchInput.toLowerCase() !== "leorio" &&
+            searchInput.toLowerCase() !== "hisoka" &&
+            searchInput.toLowerCase() !== "ging" &&
+            searchInput.toLowerCase() !== "chrollo" &&
+            searchInput.toLowerCase() !== "uvo" &&
+            searchInput.toLowerCase() !== "feitan" &&
+            searchInput.toLowerCase() !== "nobunaga" &&
+            searchInput.toLowerCase() !== "machi" &&
+            searchInput.toLowerCase() !== "phinks" &&
+            searchInput.toLowerCase() !== "shalnark" && (
+              <p
+                className="lg:text-[2rem] lg:text-black text-center"
+                style={{ fontFamily: "Fonstars" }}
+              >
+                That character does not exist
+              </p>
+            )}
+        </>
+      )}
     </div>
   );
 };
