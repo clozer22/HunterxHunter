@@ -40,7 +40,7 @@ const Navbar = () => {
 
   return (
     <div
-      className={`nav fixed top-0 z-[100] lg:w-full xsm:w-full rdm:w-full sm:w-full md:w-full h-[80px] flex justify-between items-center lg:px-4 bg-transparent text-white ${
+      className={`nav fixed top-0 z-[100] lg:w-full lg:bg-[#0000006e]  xsm:w-full rdm:w-full sm:w-full md:w-full h-[80px] flex justify-between items-center lg:px-4 bg-transparent text-white ${
         show ? "fadeIn" : "fadeOut"
       }`}
     >
@@ -64,8 +64,11 @@ const Navbar = () => {
             Characters
           </NavLink>
         </li>
-        <li className="hover:border-b-2 border-b-[#9A208C]">Arc</li>
-        <li className="hover:border-b-2 border-b-[#9A208C]">About</li>
+        <li className="hover:border-b-2 border-b-[#9A208C]">
+          <NavLink to="/arcs" activeClassName="active-link">
+            Arc
+          </NavLink>
+        </li>
       </ul>
 
       {/* Hamburger Menu */}
@@ -102,10 +105,9 @@ const Navbar = () => {
           </NavLink>
         </li>
         <li className="py-6 text-4xl xsm:text-[2rem] hover:border-b-4 border-b-[#9A208C]">
-          Arc
-        </li>
-        <li className="py-6 text-4xl xsm:text-[2rem] hover:border-b-4 border-b-[#9A208C]">
-          About
+          <NavLink to="/arcs" activeClassName="active-link">
+            Arc
+          </NavLink>
         </li>
       </ul>
 

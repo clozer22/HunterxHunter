@@ -13,15 +13,19 @@ const Home = () => {
   };
   return (
     <div name="home" className="w-full h-screen  bg-no-repeat  sm:grid-cols-1">
+      
       {/* Container */}
       <div className="bg-black grid lg:grid-cols-2 gap-4 w-full lg:h-full rdm:h-screen">
         <div
           className="col-span-1 max-w-[1000px] mx-auto flex flex-col sm:justify-center rdm:justify-center h-full sm:mb-8 lg:pl-10 "
           style={{ fontFamily: "Fonstars" }}
         >
+          <Fade>
           <p className="text-white lg:text-[1.5rem] lg:text-left sm:text-center xsm:text-center rdm:text-center xsm:text-[.8rem] rdm:text-[1rem]  xsm:mt-[5rem] sm:text-[1rem]">
             Welcome to
           </p>
+          </Fade>
+          <Fade>
           <h1 className="lg:text-[2rem] sm:text-[2rem] lg:text-left sm:text-center xsm:text-center rdm:text-center xsm:text-[1.7rem] rdm:text-[1.7rem] font-extrabold text-[#f8faff] ">
             <span className="text-white">Hunter</span>{" "}
             <span className="text-[#3cb62b]">x</span>{" "}
@@ -41,6 +45,8 @@ const Home = () => {
             The Hunter Website Bartender is an interactive conduit for giving
             information on the Hunters' Tavern.
           </p>
+          </Fade>
+          <Fade>
           <div className="flex lg:mx-0 sm:mx-auto xsm:mx-auto rdm:mx-auto">
             <button
               onClick={handleScroll}
@@ -52,6 +58,7 @@ const Home = () => {
               </span>
             </button>
           </div>
+          </Fade>
         </div>
         <div className="lg:col-span-1 sm:flex sm:justify-center sm:items-center xsm:items-center rdm:items-center rdm:flex xsm:justify-center rdm:justify-center xsm:flex ">
           <Fade top>

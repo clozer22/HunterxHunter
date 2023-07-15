@@ -12,6 +12,7 @@ import Leorio_info from "./Components/Pages/Leorio_info";
 import { Hisoka_info } from "./Components/Pages/Hisoka_info";
 import Ging_info from "./Components/Pages/Ging_info";
 import Chrollo_info from "./Components/Pages/Chrollo_info";
+import Arc from "./Components/Arc";
 
  
 
@@ -25,6 +26,7 @@ function App() {
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route path="/characters" element={<Characters />} />
+          <Route path="/arcs" element={<Arc />} />
           <Route path="/killua_info" element={<Killua_info />} />
           <Route path="/netero_info" element={<Netero_info />} />
           <Route path="/gon_info" element={<Gon_info />} />
