@@ -7,6 +7,11 @@ import HunterExam from "./HunterExam";
 import ZoldyckFam from "./ZoldyckFam";
 import HeavensArena from "./HeavensArena";
 import YorkNew from "./YorkNew";
+import GreedIsland from "./GreedIsland";
+import ChimeraAnt from "./ChimeraAnt";
+import Footer from "./Footer";
+import Election from "./Election";
+
 
 const Arc = () => {
   const [searchInput, setSearchInput] = useState("");
@@ -90,7 +95,7 @@ const Arc = () => {
         </h1>
       </div>
       {searchInput === "" || searchInput === null ? (
-        <div className="grid lg:grid-rows-auto ">
+        <div className="grid lg:grid-rows-auto bg-gray-800">
           <Fade bottom>
             <div>
               <HunterExam />
@@ -104,7 +109,16 @@ const Arc = () => {
             <div>
               <YorkNew />
             </div>
-            
+            <div>
+              <GreedIsland />
+            </div>
+            <div>
+              <ChimeraAnt />
+            </div>
+            <div>
+              <Election />
+            </div>
+         
           </Fade>
         </div>
       ) : (

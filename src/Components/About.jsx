@@ -2,10 +2,11 @@ import React from "react";
 import about from "../Assets/about.png";
 import kill from "../Assets/killua2.mp4";
 import Fade from "react-reveal/Fade";
+import Footer from "./Footer";
 
 const About = () => {
   return (
-    <div className="w-full h-[500px] sm:grid-cols-1">
+    <div className="w-full h-full sm:grid-cols-1">
       <div className="grid lg:grid-cols-2 w-full lg:h-full">
         <div className="col-span-1 pl-3 flex flex-col justify-center text-center items-center bg-gray-800">
           <h1
@@ -63,6 +64,7 @@ const About = () => {
           ></video>
         </div>
       </div>
+
     </div>
   );
 };

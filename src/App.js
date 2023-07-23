@@ -13,6 +13,9 @@ import { Hisoka_info } from "./Components/Pages/Hisoka_info";
 import Ging_info from "./Components/Pages/Ging_info";
 import Chrollo_info from "./Components/Pages/Chrollo_info";
 import Arc from "./Components/Arc";
+import Footer from "./Components/Footer";
+import HunterExamStory from "./Components/Pages/HunterExamStory";
+
 
  
 
@@ -35,7 +38,7 @@ function App() {
           <Route path="/hisoka_info" element={<Hisoka_info />} />
           <Route path="/ging_info" element={<Ging_info />} />
           <Route path="/chrollo_info" element={<Chrollo_info />} />
-
+          <Route path="/HunterExam" element={<HunterExamStory />} />
         </Routes>
       </div>
     </Router>

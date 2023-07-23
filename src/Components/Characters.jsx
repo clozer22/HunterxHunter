@@ -1,9 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import Typed from "react-typed";
-import hxh from "../Assets/hxh.png";
-import Navbar from "./Navbar";
-import About from "./About";
+
 import Gon from "./Gon";
 import Kurapika from "./Kurapika";
 import Leorio from "./Leorio";
@@ -19,8 +17,8 @@ import Nobunaga from "./Nobunaga";
 import Machi from "./Machi";
 import Phinks from "./Phinks";
 import Fade from "react-reveal/Fade";
-import Zoom from "react-reveal/Zoom";
 import Shalnark from "./Shalnark";
+import Footer from "./Footer";
 
 const Characters = () => {
   const [searchInput, setSearchInput] = useState("");
@@ -31,12 +29,12 @@ const Characters = () => {
   };
 
   useEffect(() => {
-    setIsLoading(true); // Set loading state to true before loading the components
+    setIsLoading(true); 
 
-    // Simulate an asynchronous operation, e.g., fetching data
+   
     setTimeout(() => {
-      setIsLoading(false); // Set loading state to false after the components are loaded
-    }, 2000); // Adjust the timeout duration as needed
+      setIsLoading(false);
+    }, 2000); 
   }, []);
 
   return (
@@ -84,7 +82,7 @@ const Characters = () => {
             />
           </div>
           <div>
-            <button className="text-white bg-[#F24B28] group lg:text-[1rem] xsm:text-[.6rem] rdm:text-[.7rem] border-2 px-6 py-3 my-2 flex items-center hover:bg-transparent hover:border-pink-600">
+            <button className="text-white bg-[#F24B28] group lg:text-[1rem] xsm:flex xsm:text-[.6rem] rdm:text-[.7rem] border-2 px-6 py-3 my-2 flex items-center hover:bg-transparent hover:border-pink-600">
               Read More
               <span className="group-hover:rotate-90 duration-300">
                 <HiArrowNarrowRight className="ml-3" />

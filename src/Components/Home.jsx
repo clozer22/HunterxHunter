@@ -5,6 +5,7 @@ import hxh from "../Assets/hxh.png";
 import "../fonts/fonts.css";
 import About from "./About";
 import Fade from "react-reveal/Fade";
+import Footer from "./Footer";
 
 const Home = () => {
   const handleScroll = () => {

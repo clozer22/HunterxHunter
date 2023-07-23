@@ -1,10 +1,11 @@
 import React from "react";
 import first from "../Assets/hxhback.jpg";
 import { HiArrowNarrowRight } from "react-icons/hi";
+import { Link } from "react-router-dom";
 
 const HunterExam = () => {
   return (
-    <div className="lg:h-[700px] lg:w-[80%] lg:mx-[10rem] rounded-xl rdm:mb-[3rem] bg-black grid lg:grid-rows-2 gap-4">
+    <div className="lg:h-[700px] lg:w-[80%] lg:mx-[10rem] rounded-xl rdm:mb-[3rem] bg-black grid lg:grid-rows-2 gap-4 mt-5">
       <div className=" text-white  text-center ">
         <div className="text-white flex">
           <table class="table-auto lg:m-7 w-full">
@@ -35,12 +36,12 @@ const HunterExam = () => {
                   brother, Illumi, who makes him come home before he can even
                   finish the exam.
                   <div className="flex justify-center items-center">
-                    <button className="text-white bg-[#F24B28] group lg:text-[1rem] xsm:text-[.6rem] rdm:text-[.7rem] border-2 px-6 py-3 my-2 flex items-center hover:bg-transparent hover:border-pink-600">
+                    <Link to={"/HunterExam"}><button className="text-white bg-[#F24B28] group lg:text-[1rem] xsm:text-[.6rem] rdm:text-[.7rem] border-2 px-6 py-3 my-2 flex items-center hover:bg-transparent hover:border-pink-600">
                       Read More
                       <span className="group-hover:rotate-90 duration-300">
                         <HiArrowNarrowRight className="ml-3" />
                       </span>
-                    </button>
+                    </button></Link>
                   </div>
                 </td>
               </tr>

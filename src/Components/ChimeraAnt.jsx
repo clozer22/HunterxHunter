@@ -1,8 +1,7 @@
 import React from "react";
-import first from "../Assets/heavens1.jpg";
+import first from "../Assets/chimera.jpg";
 import { HiArrowNarrowRight } from "react-icons/hi";
-
-const HeavensArena = () => {
+const ChimeraAnt = () => {
   return (
     <div className="lg:h-[700px] lg:w-[80%] lg:mx-[10rem] rounded-xl rdm:mb-[3rem] bg-black grid lg:grid-rows-2 gap-4">
       <div className=" text-white  text-center ">
@@ -14,22 +13,22 @@ const HeavensArena = () => {
                   className="py-2 text-center justify-center items-center lg:text-[2rem]"
                   style={{ fontFamily: "Fonstars" }}
                 >
-                  Heavens <span className="text-[#F24B28]">x</span> Arena <span className="text-[#F24B28]">x</span> Arc
+                  Chimera <span className="text-[#F24B28]">x</span> Ant{" "}
+                  <span className="text-[#F24B28]">x</span> Arc
                 </th>
               </tr>
             </thead>
             <tbody className="">
               <tr className="">
                 <td className="font-bold">
-                  Gon and Killua go to Heavens Arena, a 251-floor building where
-                  people compete through fighting tournaments around the clock
-                  for cash. It is here they meet the Kung-Fu master Wing, who
-                  teaches them about Nen, a chi-like energy that can be used to
-                  manifest superhuman powers. He teaches a young child named
-                  Zushi, who joins Gon and Killua to fight in the tournament to
-                  gain money and experience. Hisoka is also in the tournament.
-                  Gon finally gets to battle Hisoka again, to show off how much
-                  he has improved.
+                  After leaving Greed Island, Gon and Killua meet up with Kite.
+                  They're all hired to investigate a strange insect leg that
+                  washed up on a beach. Genetic testing determines that the leg
+                  belongs to an abnormally large Chimera Ant Queen, which just
+                  happens to wash up on the shore of an island called the NGL
+                  (Neo-Green Life). The Chimera Ants proceed to wipe most of the
+                  population out and spawn hundreds of offspring for next
+                  generation before Gon, Killua, and Kite arrive to stop her.
                   <div className="flex justify-center items-center">
                     <button className="text-white bg-[#F24B28] group lg:text-[1rem] xsm:text-[.6rem] rdm:text-[.7rem] border-2 px-6 py-3 my-2 flex items-center hover:bg-transparent hover:border-pink-600">
                       Read More
@@ -51,4 +50,4 @@ const HeavensArena = () => {
   );
 };
 
-export default HeavensArena;
+export default ChimeraAnt;
