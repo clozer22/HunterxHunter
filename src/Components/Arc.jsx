@@ -33,7 +33,7 @@ const Arc = () => {
   return (
     <div
       name="home"
-      className="w-full h-[500px]  bg-black bg-no-repeat  sm:grid-cols-1 bg-cover bg-center bg-gradient-to-br from-black"
+      className="lg:w-full rdm:w-full h-[500px]  bg-black bg-no-repeat  sm:grid-cols-1 bg-cover bg-center bg-gradient-to-br from-black bg-fixed"
       style={{ backgroundImage: `url(${require(`../Assets/phantom.jpg`)})` }}
     >
       {/* Container */}
